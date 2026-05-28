@@ -47,6 +47,20 @@ else
     echo "⚠️  OpenUsage: config no encontrado"
 fi
 
+# Superwhisper (config + licencia, sin modelos ML)
+if [ -f ~/Library/Preferences/com.superduper.superwhisper.plist ]; then
+    cp ~/Library/Preferences/com.superduper.superwhisper.plist "$BACKUP_DIR/"
+    echo "✅ Superwhisper preferences"
+else
+    echo "⚠️  Superwhisper: plist no encontrado"
+fi
+if [ -d ~/Library/Application\ Support/com.superduper.superwhisper ]; then
+    cp -R ~/Library/Application\ Support/com.superduper.superwhisper "$BACKUP_DIR/"
+    echo "✅ Superwhisper license"
+else
+    echo "⚠️  Superwhisper: license no encontrada"
+fi
+
 echo ""
 echo "✅ Backup completado en $BACKUP_DIR"
 ls -la "$BACKUP_DIR"
