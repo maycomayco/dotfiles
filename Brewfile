@@ -45,7 +45,7 @@ cask "bitwarden"
 # Web browser focusing on privacy
 cask "brave-browser"
 # GUI app for Homebrew
-cask "cakebrew"
+
 # Free and open-source web browser
 cask "chromium"
 # Ghostty-based terminal with vertical tabs and notifications for AI coding agents
