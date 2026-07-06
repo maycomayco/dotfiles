@@ -1,3 +1,24 @@
-.atl/
+# Secrets
+home/.npmrc
+home/.npmrc.template
+home/.netrc
+
+# Auth tokens
+home/.config/gh/
+
+# Work-specific config
+home/.config/zsh/aliases.work.zsh
+
+# SSH & GPG
+home/.ssh/
+home/.gnupg/
+
+# macOS
 .DS_Store
+**/.DS_Store
+
+# Engram
+.atl/
+
+# Mackup backups (large files)
 mackup/Mackup/Library/Application Support/Insomnia/backups/

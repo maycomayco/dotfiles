@@ -1,149 +1,95 @@
-# =============================================
-# Mayco's Mac Setup
-# =============================================
-# Usage:
-#   brew bundle                    # Install everything
-#   brew bundle --dry-run          # Preview what would be installed
-#   brew bundle dump               # Regenerate from current install
-
-# ---- Taps ----
-tap "gentleman-programming/tap"
-tap "nrvim/tap"
-
-# =============================================
-# FORMULAS (CLI tools)
-# =============================================
-
-# Core
-brew "gh"                        # GitHub CLI
-brew "go"                        # Go language
-brew "pnpm"                      # Fast package manager
-brew "python@3.12"               # Python
-
-# Dev tools
-brew "mole"                      # Tunneling tool
-
-# Security & networking
-brew "nss"                       # Security libraries
-brew "openssl@1.1"               # SSL/TLS toolkit
-
-# Gentleman Programming tools
+# Clone of cat(1) with syntax highlighting and Git integration
+brew "bat"
+# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"
+# GitHub command-line tool
+brew "gh"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Agent multiplexer that lives in your terminal
+brew "herdr"
+# Keep your Mac's application settings in sync
+brew "mackup"
+# Deep clean and optimize your Mac
+brew "mole"
+# Open-source, cross-platform JavaScript runtime environment
+brew "node"
+# Libraries for security-enabled client and server applications
+brew "nss"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
+# Fast, disk space efficient package manager
+brew "pnpm"
+# Python version management
+brew "pyenv"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.12"
+# Command-line interface for Render
+brew "render"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Fish-like fast/unobtrusive autosuggestions for zsh
+brew "zsh-autosuggestions"
+# Fish shell like syntax highlighting for zsh
+brew "zsh-syntax-highlighting"
+# Persistent memory for AI coding agents. Agent-agnostic, single binary, zero dependencies.
 brew "gentleman-programming/tap/engram"
-brew "gentleman-programming/tap/gentle-ai"
+# Gentle-AI — Ecosystem, Frameworks, Workflows for AI coding agents.
+brew "gentleman-programming/tap/gentle-ai", trusted: true
+# Gentleman Guardian Angel - Provider-agnostic code review using AI (Claude, Gemini, Codex, OpenCode, Ollama)
 brew "gentleman-programming/tap/gga"
-
-# Other
-brew "nrvim/tap/garmin-givemydata"
-# =============================================
-# CASKS (GUI Applications)
-# =============================================
-
-# Browsers
-cask "brave-browser"
-cask "chromium"
-cask "firefox"
-cask "google-chrome"
-
-# Security
+# Password manager that keeps all passwords secure behind one password
 cask "1password"
-
-# Dev tools
-cask "cursor"                    # AI code editor
-cask "docker-desktop"            # Containerization
-cask "github"                    # GitHub Desktop
-cask "insomnia"                  # API testing
-cask "iterm2"                    # Terminal emulator
-
-cask "postman"                   # API testing
-cask "visual-studio-code"        # Code editor
-cask "warp"                      # Modern terminal
-
-# Design & media
-cask "figma"                     # Design tool
-cask "tidal"                     # Music streaming
-cask "deepl"                     # Translation tool
-
-# System utilities
-cask "raycast"                   # Productivity launcher
-cask "betterdisplay"             # Display management
-cask "deskpad"                   # Virtual monitor
-cask "hiddenbar"                 # Hide menu bar items
-cask "itsycal"                   # Menu bar calendar
-cask "karabiner-elements"        # Keyboard customizer
-cask "logitune"                  # Logitech webcam settings
-cask "only-switch"               # System switches
-cask "pearcleaner"               # App uninstaller
-cask "shottr"                    # Screenshot tool
-cask "superwhisper"              # Dictation with AI
-cask "openusage"                 # Usage tracking
-cask "anydesk"                   # Remote desktop
-cask "slack"                     # Team messaging
-cask "telegram"                  # Messaging
-cask "zoom"                      # Video conferencing
-
-# Gentleman Programming
-cask "mole-app"
-
-# Fonts
+# Display management tool
+cask "betterdisplay"
+# Desktop password and login vault
+cask "bitwarden"
+# Web browser focusing on privacy
+cask "brave-browser"
+# GUI app for Homebrew
+cask "cakebrew"
+# Free and open-source web browser
+cask "chromium"
+# Ghostty-based terminal with vertical tabs and notifications for AI coding agents
+cask "cmux"
+# Virtual monitor for screen sharing
+cask "deskpad"
+# Collaborative team software
+cask "figma"
+cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "font-meslo-lg-nerd-font"
+cask "font-monaspace"
 cask "font-sf-mono"
-
-# =============================================
-# VSCODE EXTENSIONS
-# =============================================
-
-# Themes & icons
-vscode "antfu.icons-carbon"
-vscode "github.github-vscode-theme"
-vscode "liviuschera.noctis"
-vscode "pkief.material-icon-theme"
-vscode "pmndrs.pmndrs"
-vscode "teabyii.ayu"
-vscode "vscode-icons-team.vscode-icons"
-vscode "miguelsolorio.fluent-icons"
-
-# Editor enhancements
-vscode "drcika.apc-extension"
-vscode "editorconfig.editorconfig"
-vscode "kamikillerto.vscode-colorize"
-vscode "johnpapa.vscode-peacock"
-vscode "patbenatar.advanced-new-file"
-vscode "sleistner.vscode-fileutils"
-vscode "wayou.vscode-todo-highlight"
-vscode "usernamehw.errorlens"
-vscode "simonsiefke.svg-preview"
-
-# Languages & frameworks
-vscode "biomejs.biome"
-vscode "bradlc.vscode-tailwindcss"
-vscode "dbaeumer.vscode-eslint"
-vscode "esbenp.prettier-vscode"
-vscode "kumar-harsh.graphql-for-vscode"
-vscode "unifiedjs.vscode-mdx"
-vscode "mattpocock.ts-error-translator"
-
-# Git & GitHub
-vscode "eamodio.gitlens"
-vscode "github.vscode-github-actions"
-
-# Productivity
-vscode "augment.vscode-augment"
-vscode "aykutsarac.jsoncrack-vscode"
-vscode "bierner.markdown-preview-github-styles"
-vscode "chakrounanas.turbo-console-log"
-vscode "kisstkondoros.vscode-codemetrics"
-vscode "ritwickdey.liveserver"
-vscode "streetsidesoftware.code-spell-checker"
-vscode "streetsidesoftware.code-spell-checker-spanish"
-vscode "tabnine.tabnine-vscode"
-vscode "visualstudioexptteam.intellicode-api-usage-examples"
-vscode "visualstudioexptteam.vscodeintellicode"
-
-# =============================================
-# NPM GLOBAL PACKAGES
-# =============================================
-
-npm "@augmentcode/auggie"
-npm "@playwright/cli"
-npm "corepack"
+# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "ghostty"
+# Utility to hide menu bar items
+cask "hiddenbar"
+# Menu bar calendar
+cask "itsycal"
+# Keyboard customiser
+cask "karabiner-elements"
+# Deep clean, analyze, and optimize app
+cask "mole-app"
+# System and utility switches
+cask "only-switch"
+# AI coding agent desktop client
+cask "opencode-desktop"
+# AI usage tracker for Cursor, Claude Code, Codex, Copilot and more
+cask "openusage"
+# Utility to uninstall apps and remove leftover files from old/uninstalled apps
+cask "pearcleaner"
+# Collaboration platform for API development
+cask "postman"
+# Screenshot measurement and annotation tool
+cask "shottr"
+# Dictation tool including LLM reformatting
+cask "superwhisper"
+# Music streaming service with high fidelity sound and hi-def video quality
+cask "tidal"
+# Multimedia player
+cask "vlc"
+# Rust-based terminal
+cask "warp"
+# Native desktop client for WhatsApp
+cask "whatsapp@beta"
