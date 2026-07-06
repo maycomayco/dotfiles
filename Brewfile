@@ -8,14 +8,16 @@ brew "gh"
 brew "go"
 # Agent multiplexer that lives in your terminal
 brew "herdr"
-# Keep your Mac's application settings in sync
-brew "mackup"
 # Deep clean and optimize your Mac
 brew "mole"
 # Open-source, cross-platform JavaScript runtime environment
 brew "node"
 # Libraries for security-enabled client and server applications
 brew "nss"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
+# Execute binaries from Python packages in isolated environments
+brew "pipx"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Python version management
@@ -37,7 +39,6 @@ brew "gentleman-programming/tap/gentle-ai", trusted: true
 # Gentleman Guardian Angel - Provider-agnostic code review using AI (Claude, Gemini, Codex, OpenCode, Ollama)
 brew "gentleman-programming/tap/gga"
 # Password manager that keeps all passwords secure behind one password
-cask "raycast"
 cask "1password"
 # Display management tool
 cask "betterdisplay"
@@ -46,7 +47,7 @@ cask "bitwarden"
 # Web browser focusing on privacy
 cask "brave-browser"
 # GUI app for Homebrew
-
+cask "cakebrew"
 # Free and open-source web browser
 cask "chromium"
 # Ghostty-based terminal with vertical tabs and notifications for AI coding agents

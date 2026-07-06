@@ -1,21 +1,21 @@
 [appearance]
-spacing = "normal"
+spacing = "compact"
 
 [appearance.window]
 override_opacity = 85
 override_blur = 20
-zoom_level = 110
+zoom_level = 100
 
 [appearance.text]
 line_height_ratio = 1.2000000476837158
-font_name = "GeistMono Nerd Font Mono"
+font_name = "SF Mono"
 enforce_minimum_contrast = "never"
 notebook_font_size = 14.0
 font_size = 15.0
-use_thin_strokes = "always"
-ai_font_name = "MesloLGS Nerd Font"
+use_thin_strokes = "on_high_dpi_displays"
+ai_font_name = "SF Mono"
 match_ai_font = false
-ligature_rendering_enabled = true
+ligature_rendering_enabled = false
 
 [appearance.themes]
 system_theme = false
@@ -33,20 +33,26 @@ display_granularity = "tabs"
 view_mode = "compact"
 compact_subtitle = "working_directory"
 primary_info = "command"
+show_panel_in_restored_windows = false
 
 [appearance.blocks]
 show_jump_to_bottom_of_block_button = true
 
+[appearance.input]
+input_mode = "waterfall"
+
 [warpify]
 
 [warpify.ssh]
-enable_legacy_ssh_wrapper = false
+enable_legacy_ssh_wrapper = true
+enable_ssh_warpification = false
 
 [terminal]
 osc52_clipboard_access = "write_only"
 
 [terminal.input]
-input_box_type_setting = "universal"
+input_box_type_setting = "classic"
+honor_ps1 = true
 
 [notifications]
 toast_duration_secs = 8
@@ -102,6 +108,7 @@ startup_shell_override = "zsh"
 cloud_conversation_storage_enabled = true
 
 [agents.warp_agent]
+is_any_ai_enabled = false
 
 [agents.warp_agent.input]
 nld_in_terminal_enabled = true

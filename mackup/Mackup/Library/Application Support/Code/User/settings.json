@@ -1,14 +1,24 @@
 {
-  "terminal.integrated.fontSize": 14,
+  // Themes 👇
+  // "workbench.colorTheme": "GitHub Dark Default",
+  // "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.colorTheme": "Dark 2026",
+  // Typography 👇
   // "editor.fontFamily": "Hack Nerd Font",
-  // "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
   "editor.fontFamily": "JetBrainsMono Nerd Font",
-  // "editor.fontFamily": "GeistMono Nerd Font",
-  "editor.fontSize": 16,
-  // "editor.lineHeight": 1.6,
+  // "editor.fontFamily": "'FiraCode-Retina', monospace",
+  // "editor.fontFamily": "'Monaspace Neon', monospace",
+  "editor.fontFamily": "'SF Mono', monospace",
+  "editor.fontSize": 15.5,
+  "editor.lineHeight": 1.6,
+  "terminal.integrated.fontSize": 13,
+  // "editor.inlineSuggest.fontFamily": "'Monaspace Krypton', monospace",
+  // "editor.fontWeight": "450", // Retina !! Only works with FiraCode-VF.ttf installed, see below when using separated font files (the normal case).
   // "editor.fontLigatures": true,
   // "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07', 'ss08'",
   "editor.fontLigatures": "'ss01','ss05','dlig'",
+  // fontLigatures for Monaspace Neon 👇
+  // "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss07', 'ss08', 'ss09', 'liga'",
   "editor.renderWhitespace": "trailing",
   "editor.glyphMargin": false,
   "editor.copyWithSyntaxHighlighting": false,
@@ -52,6 +62,7 @@
     "type-alias-declaration",
     "pick-utility-type",
     "literal-type",
+    "interface-declaration"
   ],
   "typescript.updateImportsOnFileMove.enabled": "never",
   // Default formatter settings
@@ -205,5 +216,7 @@
       },
     },
   },
-  "workbench.colorTheme": "Dark Modern",
+  "markdown.preview.fontSize": 16,
+  "chat.editor.fontSize": 14,
+  "chat.fontSize": 14,
 }
