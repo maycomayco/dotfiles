@@ -1,0 +1,122 @@
+[
+	{
+		"value": "Preparing request to http://localhost:8000/api/users/auth",
+		"name": "Text",
+		"timestamp": 1702391069455
+	},
+	{
+		"value": "Current time is 2023-12-12T14:24:29.455Z",
+		"name": "Text",
+		"timestamp": 1702391069455
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1702391069455
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1702391069456
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1702391069456
+	},
+	{
+		"name": "Text",
+		"value": "Too old connection (2783 seconds), disconnect it\n",
+		"timestamp": 1702391069457
+	},
+	{
+		"name": "Text",
+		"value": "Connection 9 seems to be dead!\n",
+		"timestamp": 1702391069457
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 9\n",
+		"timestamp": 1702391069457
+	},
+	{
+		"name": "Text",
+		"value": "Hostname in DNS cache was stale, zapped\n",
+		"timestamp": 1702391069457
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:8000...\n",
+		"timestamp": 1702391069457
+	},
+	{
+		"name": "Text",
+		"value": "Connected to localhost (127.0.0.1) port 8000 (#10)\n",
+		"timestamp": 1702391069457
+	},
+	{
+		"name": "HeaderOut",
+		"value": "POST /api/users/auth HTTP/1.1\r\nHost: localhost:8000\r\nUser-Agent: insomnia/2023.5.8\r\nAccept: */*\r\nContent-Length: 0\r\n\r\n",
+		"timestamp": 1702391069457
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1702391069479
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1702391069479
+	},
+	{
+		"name": "HeaderIn",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1702391069479
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1702391069479
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Length: 23\r\n",
+		"timestamp": 1702391069479
+	},
+	{
+		"name": "HeaderIn",
+		"value": "ETag: W/\"17-qu6HZnz7phjnz5IWF6iSQVhjj6Q\"\r\n",
+		"timestamp": 1702391069479
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Date: Tue, 12 Dec 2023 14:24:29 GMT\r\n",
+		"timestamp": 1702391069479
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1702391069479
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1702391069479
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1702391069479
+	},
+	{
+		"name": "Text",
+		"value": "Received 23 B chunk",
+		"timestamp": 1702391069479
+	},
+	{
+		"name": "Text",
+		"value": "Connection #10 to host localhost left intact\n",
+		"timestamp": 1702391069479
+	}
+]

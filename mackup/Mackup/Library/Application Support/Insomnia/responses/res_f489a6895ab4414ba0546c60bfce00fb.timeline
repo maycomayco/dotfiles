@@ -1,0 +1,24 @@
+{"value":"Preparing request to http://localhost:3000/api/map","name":"Text","timestamp":1723042843572}
+{"value":"Current time is 2024-08-07T15:00:43.572Z","name":"Text","timestamp":1723042843572}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1723042843572}
+{"value":"Using default HTTP version","name":"Text","timestamp":1723042843576}
+{"value":"Enable SSL validation","name":"Text","timestamp":1723042843576}
+{"value":"Enable cookie sending with jar of 2 cookies","name":"Text","timestamp":1723042843576}
+{"name":"Text","value":"Too old connection (10613 seconds), disconnect it\n","timestamp":1723042843577}
+{"name":"Text","value":"Connection 0 seems to be dead!\n","timestamp":1723042843577}
+{"name":"Text","value":"Closing connection 0\n","timestamp":1723042843577}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1723042843577}
+{"name":"Text","value":"  Trying 127.0.0.1:3000...\n","timestamp":1723042843577}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 3000 (#1)\n","timestamp":1723042843577}
+{"name":"HeaderOut","value":"GET /api/map HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: insomnia/9.3.2\r\nAccept: */*\r\n\r\n","timestamp":1723042843577}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1723042843615}
+{"name":"HeaderIn","value":"HTTP/1.1 200 OK\r\n","timestamp":1723042843615}
+{"name":"HeaderIn","value":"vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch\r\n","timestamp":1723042843615}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1723042843615}
+{"name":"HeaderIn","value":"Date: Wed, 07 Aug 2024 15:00:43 GMT\r\n","timestamp":1723042843615}
+{"name":"HeaderIn","value":"Connection: keep-alive\r\n","timestamp":1723042843615}
+{"name":"HeaderIn","value":"Keep-Alive: timeout=5\r\n","timestamp":1723042843615}
+{"name":"HeaderIn","value":"Transfer-Encoding: chunked\r\n","timestamp":1723042843615}
+{"name":"HeaderIn","value":"\r\n","timestamp":1723042843615}
+{"name":"Text","value":"Received 5.3 KB chunk","timestamp":1723042843616}
+{"name":"Text","value":"Connection #1 to host localhost left intact\n","timestamp":1723042843616}

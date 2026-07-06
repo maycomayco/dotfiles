@@ -1,0 +1,34 @@
+{"value":"Preparing request to https://www.worldsprings.com/api/beonic","name":"Text","timestamp":1724861276498}
+{"value":"Current time is 2024-08-28T16:07:56.498Z","name":"Text","timestamp":1724861276498}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1724861276498}
+{"value":"Using default HTTP version","name":"Text","timestamp":1724861276498}
+{"value":"Enable SSL validation","name":"Text","timestamp":1724861276498}
+{"value":"Enable cookie sending with jar of 2 cookies","name":"Text","timestamp":1724861276498}
+{"name":"Text","value":"Found bundle for host www.worldsprings.com: 0x11c059cb580 [can multiplex]\n","timestamp":1724861276498}
+{"name":"Text","value":"Re-using existing connection! (#39) with host www.worldsprings.com\n","timestamp":1724861276498}
+{"name":"Text","value":"Connected to www.worldsprings.com (2606:4700:10::6816:2e9f) port 443 (#39)\n","timestamp":1724861276498}
+{"name":"Text","value":"Using Stream ID: 3 (easy handle 0x11c008d4a00)\n","timestamp":1724861276498}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1724861276499}
+{"name":"HeaderOut","value":"POST /api/beonic HTTP/2\r\nHost: www.worldsprings.com\r\ncontent-type: application/json\r\nuser-agent: insomnia/9.3.2\r\naccept: */*\r\ncontent-length: 41\r\n\r\n","timestamp":1724861276499}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1724861276499}
+{"name":"DataOut","value":"[{\n\t\"skyfiiId\":\"00001\",\n\t\"name\":\"Juan\"\n}]","timestamp":1724861276499}
+{"name":"Text","value":"We are completely uploaded and fine\n","timestamp":1724861276499}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"HTTP/2 401 \r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"date: Wed, 28 Aug 2024 16:07:56 GMT\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"cache-control: public, max-age=0, must-revalidate\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=63072000\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"x-matched-path: /api/beonic\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"x-vercel-cache: MISS\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"x-vercel-execution-region: iad1\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"x-vercel-id: gru1::iad1::d6wdd-1724861276728-f181c9a83150\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"cf-cache-status: DYNAMIC\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"server: cloudflare\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"cf-ray: 8ba58ea28e8b1eb4-EZE\r\n","timestamp":1724861276923}
+{"name":"HeaderIn","value":"\r\n","timestamp":1724861276923}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724861276923}
+{"name":"Text","value":"Received 55 B chunk","timestamp":1724861276923}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724861276923}
+{"name":"Text","value":"Connection #39 to host www.worldsprings.com left intact\n","timestamp":1724861276923}

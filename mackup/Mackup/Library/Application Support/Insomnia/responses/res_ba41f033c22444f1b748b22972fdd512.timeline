@@ -1,0 +1,35 @@
+{"value":"Preparing request to https://webscraper-api.onrender.com/api/v1/saucony","name":"Text","timestamp":1777483650752}
+{"value":"Current time is 2026-04-29T17:27:30.752Z","name":"Text","timestamp":1777483650752}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1777483650752}
+{"value":"Using default HTTP version","name":"Text","timestamp":1777483650752}
+{"value":"Enable SSL validation","name":"Text","timestamp":1777483650752}
+{"name":"Text","value":"Found bundle for host: 0x10c04d4e0c0 [can multiplex]\n","timestamp":1777483650752}
+{"name":"Text","value":"Re-using existing connection #2 with host webscraper-api.onrender.com\n","timestamp":1777483650752}
+{"name":"Text","value":"Connected to webscraper-api.onrender.com (216.24.57.7) port 443 (#2)\n","timestamp":1777483650752}
+{"name":"Text","value":"h2h3 [:method: GET]\n","timestamp":1777483650752}
+{"name":"Text","value":"h2h3 [:path: /api/v1/saucony]\n","timestamp":1777483650752}
+{"name":"Text","value":"h2h3 [:scheme: https]\n","timestamp":1777483650752}
+{"name":"Text","value":"h2h3 [:authority: webscraper-api.onrender.com]\n","timestamp":1777483650752}
+{"name":"Text","value":"h2h3 [user-agent: insomnia/11.6.1]\n","timestamp":1777483650752}
+{"name":"Text","value":"h2h3 [accept: */*]\n","timestamp":1777483650752}
+{"name":"Text","value":"Using Stream ID: 5 (easy handle 0x10c00a5a200)\n","timestamp":1777483650752}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1777483650753}
+{"name":"HeaderOut","value":"GET /api/v1/saucony HTTP/2\r\nHost: webscraper-api.onrender.com\r\nuser-agent: insomnia/11.6.1\r\naccept: */*\r\n\r\n","timestamp":1777483650753}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1777483653850}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"date: Wed, 29 Apr 2026 17:27:33 GMT\r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"content-type: application/json; charset=utf-8\r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"cf-cache-status: DYNAMIC\r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"etag: W/\"26c-/OnqALWxBI/9DUb1ksFX1cmBaKo\"\r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"rndr-id: 2dcc7211-a63b-4f23\r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"server: cloudflare\r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"vary: Accept-Encoding\r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"x-powered-by: Express\r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"x-render-origin-server: Render\r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"cf-ray: 9f400491687bba74-EZE\r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"alt-svc: h3=\":443\"; ma=86400\r\n","timestamp":1777483653851}
+{"name":"HeaderIn","value":"\r\n","timestamp":1777483653851}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1777483653851}
+{"name":"Text","value":"Received 620 B chunk","timestamp":1777483653851}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1777483653852}
+{"name":"Text","value":"Connection #2 to host webscraper-api.onrender.com left intact\n","timestamp":1777483653852}

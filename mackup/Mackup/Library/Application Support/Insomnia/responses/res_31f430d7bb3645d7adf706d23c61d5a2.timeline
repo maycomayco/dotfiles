@@ -1,0 +1,23 @@
+{"value":"Preparing request to http://localhost:3001/api/v1/saucony","name":"Text","timestamp":1777032446393}
+{"value":"Current time is 2026-04-24T12:07:26.393Z","name":"Text","timestamp":1777032446393}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1777032446393}
+{"value":"Using default HTTP version","name":"Text","timestamp":1777032446396}
+{"value":"Enable SSL validation","name":"Text","timestamp":1777032446396}
+{"name":"Text","value":"Too old connection (57959 seconds idle), disconnect it\n","timestamp":1777032446396}
+{"name":"Text","value":"Connection 23 seems to be dead\n","timestamp":1777032446396}
+{"name":"Text","value":"Closing connection 23\n","timestamp":1777032446398}
+{"name":"Text","value":"  Trying 127.0.0.1:3001...\n","timestamp":1777032446405}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 3001 (#26)\n","timestamp":1777032446406}
+{"name":"HeaderOut","value":"GET /api/v1/saucony HTTP/1.1\r\nHost: localhost:3001\r\nUser-Agent: insomnia/11.6.1\r\nAccept: */*\r\n\r\n","timestamp":1777032446406}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1777032448117}
+{"name":"HeaderIn","value":"HTTP/1.1 200 OK\r\n","timestamp":1777032448117}
+{"name":"HeaderIn","value":"X-Powered-By: Express\r\n","timestamp":1777032448117}
+{"name":"HeaderIn","value":"Content-Type: application/json; charset=utf-8\r\n","timestamp":1777032448117}
+{"name":"HeaderIn","value":"Content-Length: 450\r\n","timestamp":1777032448117}
+{"name":"HeaderIn","value":"ETag: W/\"1c2-zRk+IjRPK84l5ZvKQzLka6ZTwu4\"\r\n","timestamp":1777032448117}
+{"name":"HeaderIn","value":"Date: Fri, 24 Apr 2026 12:07:28 GMT\r\n","timestamp":1777032448117}
+{"name":"HeaderIn","value":"Connection: keep-alive\r\n","timestamp":1777032448117}
+{"name":"HeaderIn","value":"Keep-Alive: timeout=5\r\n","timestamp":1777032448117}
+{"name":"HeaderIn","value":"\r\n","timestamp":1777032448117}
+{"name":"Text","value":"Received 450 B chunk","timestamp":1777032448117}
+{"name":"Text","value":"Connection #26 to host localhost left intact\n","timestamp":1777032448117}

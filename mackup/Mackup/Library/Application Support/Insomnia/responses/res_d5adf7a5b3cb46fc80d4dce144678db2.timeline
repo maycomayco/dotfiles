@@ -1,0 +1,118 @@
+{"value":"Preparing request to https://www.paulinacocina.net/wp-json/wp/v2/posts?slug=costillitas-de-cerdo-a-la-riojana","name":"Text","timestamp":1740768593083}
+{"value":"Current time is 2025-02-28T18:49:53.083Z","name":"Text","timestamp":1740768593083}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1740768593083}
+{"value":"Using default HTTP version","name":"Text","timestamp":1740768593085}
+{"value":"Enable SSL validation","name":"Text","timestamp":1740768593085}
+{"name":"Text","value":"Too old connection (11329 seconds idle), disconnect it\n","timestamp":1740768593086}
+{"name":"Text","value":"Connection 3 seems to be dead\n","timestamp":1740768593086}
+{"name":"Text","value":"Closing connection 3\n","timestamp":1740768593087}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1740768593091}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS alert, close notify (256):\n","timestamp":1740768593091}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1740768593099}
+{"name":"Text","value":"  Trying 104.26.14.209:443...\n","timestamp":1740768593102}
+{"name":"Text","value":"Connected to www.paulinacocina.net (104.26.14.209) port 443 (#4)\n","timestamp":1740768593147}
+{"name":"Text","value":"ALPN: offers h2\n","timestamp":1740768593151}
+{"name":"Text","value":"ALPN: offers http/1.1\n","timestamp":1740768593151}
+{"name":"Text","value":" CAfile: /etc/ssl/cert.pem\n","timestamp":1740768593188}
+{"name":"Text","value":" CApath: none\n","timestamp":1740768593188}
+{"name":"Text","value":"TLSv1.0 (OUT), TLS header, Certificate Status (22):\n","timestamp":1740768593189}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Client hello (1):\n","timestamp":1740768593189}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Certificate Status (22):\n","timestamp":1740768593241}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Server hello (2):\n","timestamp":1740768593242}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Finished (20):\n","timestamp":1740768593243}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593243}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n","timestamp":1740768593243}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Certificate (11):\n","timestamp":1740768593243}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, CERT verify (15):\n","timestamp":1740768593248}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Finished (20):\n","timestamp":1740768593248}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Finished (20):\n","timestamp":1740768593248}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n","timestamp":1740768593248}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1740768593248}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Finished (20):\n","timestamp":1740768593248}
+{"name":"Text","value":"SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384\n","timestamp":1740768593248}
+{"name":"Text","value":"ALPN: server accepted h2\n","timestamp":1740768593248}
+{"name":"Text","value":"Server certificate:\n","timestamp":1740768593248}
+{"name":"Text","value":" subject: CN=paulinacocina.net\n","timestamp":1740768593248}
+{"name":"Text","value":" start date: Jan 23 14:26:47 2025 GMT\n","timestamp":1740768593248}
+{"name":"Text","value":" expire date: Apr 23 15:26:45 2025 GMT\n","timestamp":1740768593248}
+{"name":"Text","value":" subjectAltName: host \"www.paulinacocina.net\" matched cert's \"*.paulinacocina.net\"\n","timestamp":1740768593248}
+{"name":"Text","value":" issuer: C=US; O=Google Trust Services; CN=WE1\n","timestamp":1740768593249}
+{"name":"Text","value":" SSL certificate verify ok.\n","timestamp":1740768593249}
+{"name":"Text","value":"Using HTTP2, server supports multiplexing\n","timestamp":1740768593249}
+{"name":"Text","value":"Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n","timestamp":1740768593249}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1740768593249}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1740768593249}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1740768593249}
+{"name":"Text","value":"h2h3 [:method: GET]\n","timestamp":1740768593249}
+{"name":"Text","value":"h2h3 [:path: /wp-json/wp/v2/posts?slug=costillitas-de-cerdo-a-la-riojana]\n","timestamp":1740768593249}
+{"name":"Text","value":"h2h3 [:scheme: https]\n","timestamp":1740768593249}
+{"name":"Text","value":"h2h3 [:authority: www.paulinacocina.net]\n","timestamp":1740768593249}
+{"name":"Text","value":"h2h3 [user-agent: insomnia/10.3.1]\n","timestamp":1740768593249}
+{"name":"Text","value":"h2h3 [accept: */*]\n","timestamp":1740768593249}
+{"name":"Text","value":"Using Stream ID: 1 (easy handle 0x134009c8c00)\n","timestamp":1740768593249}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1740768593249}
+{"name":"HeaderOut","value":"GET /wp-json/wp/v2/posts?slug=costillitas-de-cerdo-a-la-riojana HTTP/2\r\nHost: www.paulinacocina.net\r\nuser-agent: insomnia/10.3.1\r\naccept: */*\r\n\r\n","timestamp":1740768593249}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593294}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1740768593294}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1740768593294}
+{"name":"Text","value":"old SSL session ID is stale, removing\n","timestamp":1740768593294}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593294}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1740768593294}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593297}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593728}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"date: Fri, 28 Feb 2025 18:49:53 GMT\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"content-type: application/json; charset=UTF-8\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"cf-ray: 919298dd4f86623a-GRU\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"cf-cache-status: EXPIRED\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"allow: GET\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"cache-control: max-age=2678400\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"last-modified: Fri, 28 Feb 2025 18:49:53 GMT\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"link: <https://www.paulinacocina.net/wp-json/>; rel=\"https://api.w.org/\"\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"vary: Accept-Encoding,Origin\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"via: 1.1 google\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"access-control-allow-headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"access-control-expose-headers: X-WP-Total, X-WP-TotalPages, Link\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"alt-svc: h3=\":443\"; ma=86400\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"cf-apo-via: origin,nohtml\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"cf-edge-cache: cache,platform=wordpress\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"paulina-cache-engine: true\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"referrer-policy: strict-origin-when-cross-origin\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"x-content-type-options: nosniff\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"x-frame-options: SAMEORIGIN\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"x-robots-tag: noindex\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"x-srcache-fetch-status: BYPASS\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"x-srcache-store-status: BYPASS\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"x-wp-total: 1\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"x-wp-totalpages: 1\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"report-to: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=Py5vSmWGy%2Fz7uamm9iUQFy2HIryJtA4KP7gc3IEcfE5O9J8QVVcYInGOlfnJRn3vhAQa9jzswHk%2Fze9ECQv3omXYC%2Fnm21UWtLsOiHBj7EtedERF3%2BHr6d8GP%2F35QXqjRUykRGrYxQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"nel: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"server: cloudflare\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"server-timing: cfL4;desc=\"?proto=TCP&rtt=45689&min_rtt=44183&rtt_var=10336&sent=8&recv=12&lost=0&retrans=0&sent_bytes=3443&recv_bytes=870&delivery_rate=90644&cwnd=254&unsent_bytes=0&cid=01e0f9eb92d3e769&ts=491&x=0\"\r\n","timestamp":1740768593729}
+{"name":"HeaderIn","value":"\r\n","timestamp":1740768593729}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593729}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Received 1254 B chunk","timestamp":1740768593730}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740768593730}
+{"name":"Text","value":"Connection #4 to host www.paulinacocina.net left intact\n","timestamp":1740768593731}

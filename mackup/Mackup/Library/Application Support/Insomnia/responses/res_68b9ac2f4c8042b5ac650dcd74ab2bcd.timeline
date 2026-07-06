@@ -1,0 +1,173 @@
+{"value":"Preparing request to http://worldsprings.com/api/map","name":"Text","timestamp":1725385134052}
+{"value":"Current time is 2024-09-03T17:38:54.052Z","name":"Text","timestamp":1725385134052}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1725385134052}
+{"value":"Using default HTTP version","name":"Text","timestamp":1725385134052}
+{"value":"Enable SSL validation","name":"Text","timestamp":1725385134052}
+{"name":"Text","value":"Too old connection (421 seconds), disconnect it\n","timestamp":1725385134053}
+{"name":"Text","value":"Connection 7 seems to be dead!\n","timestamp":1725385134053}
+{"name":"Text","value":"Closing connection 7\n","timestamp":1725385134053}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134053}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134053}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS alert, close notify (256):\n","timestamp":1725385134053}
+{"name":"Text","value":"Too old connection (421 seconds), disconnect it\n","timestamp":1725385134054}
+{"name":"Text","value":"Connection 10 seems to be dead!\n","timestamp":1725385134054}
+{"name":"Text","value":"Closing connection 10\n","timestamp":1725385134054}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134054}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134054}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS alert, close notify (256):\n","timestamp":1725385134054}
+{"name":"Text","value":"Too old connection (421 seconds), disconnect it\n","timestamp":1725385134055}
+{"name":"Text","value":"Connection 9 seems to be dead!\n","timestamp":1725385134055}
+{"name":"Text","value":"Closing connection 9\n","timestamp":1725385134055}
+{"name":"Text","value":"Too old connection (426 seconds), disconnect it\n","timestamp":1725385134055}
+{"name":"Text","value":"Connection 8 seems to be dead!\n","timestamp":1725385134055}
+{"name":"Text","value":"Closing connection 8\n","timestamp":1725385134055}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1725385134055}
+{"name":"Text","value":"  Trying 104.22.47.159:80...\n","timestamp":1725385134080}
+{"name":"Text","value":"Connected to worldsprings.com (104.22.47.159) port 80 (#11)\n","timestamp":1725385134096}
+{"name":"HeaderOut","value":"GET /api/map HTTP/1.1\r\nHost: worldsprings.com\r\nUser-Agent: insomnia/9.3.2\r\nAccept: */*\r\n\r\n","timestamp":1725385134096}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1725385134201}
+{"name":"HeaderIn","value":"HTTP/1.1 308 Permanent Redirect\r\n","timestamp":1725385134201}
+{"name":"HeaderIn","value":"Date: Tue, 03 Sep 2024 17:38:54 GMT\r\n","timestamp":1725385134201}
+{"name":"HeaderIn","value":"Content-Type: text/plain\r\n","timestamp":1725385134201}
+{"name":"HeaderIn","value":"Transfer-Encoding: chunked\r\n","timestamp":1725385134201}
+{"name":"HeaderIn","value":"Connection: keep-alive\r\n","timestamp":1725385134201}
+{"name":"HeaderIn","value":"Location: https://worldsprings.com/api/map\r\n","timestamp":1725385134201}
+{"name":"HeaderIn","value":"Refresh: 0;url=https://worldsprings.com/api/map\r\n","timestamp":1725385134201}
+{"name":"HeaderIn","value":"CF-Cache-Status: DYNAMIC\r\n","timestamp":1725385134201}
+{"name":"HeaderIn","value":"Server: cloudflare\r\n","timestamp":1725385134201}
+{"name":"HeaderIn","value":"CF-RAY: 8bd784209b631ea0-EZE\r\n","timestamp":1725385134201}
+{"name":"HeaderIn","value":"\r\n","timestamp":1725385134201}
+{"name":"Text","value":"Ignoring the response-body\n","timestamp":1725385134201}
+{"name":"Text","value":"Received 24 B chunk","timestamp":1725385134201}
+{"name":"Text","value":"Connection #11 to host worldsprings.com left intact\n","timestamp":1725385134201}
+{"name":"Text","value":"Issue another request to this URL: 'https://worldsprings.com/api/map'\n","timestamp":1725385134201}
+{"name":"Text","value":"  Trying 104.22.47.159:443...\n","timestamp":1725385134202}
+{"name":"Text","value":"Connected to worldsprings.com (104.22.47.159) port 443 (#12)\n","timestamp":1725385134219}
+{"name":"Text","value":"ALPN, offering h2\n","timestamp":1725385134219}
+{"name":"Text","value":"ALPN, offering http/1.1\n","timestamp":1725385134219}
+{"name":"Text","value":" CAfile: /etc/ssl/cert.pem\n","timestamp":1725385134258}
+{"name":"Text","value":"TLSv1.0 (OUT), TLS header, Certificate Status (22):\n","timestamp":1725385134258}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Client hello (1):\n","timestamp":1725385134258}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Certificate Status (22):\n","timestamp":1725385134284}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Server hello (2):\n","timestamp":1725385134284}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Finished (20):\n","timestamp":1725385134284}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134284}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n","timestamp":1725385134285}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Certificate (11):\n","timestamp":1725385134285}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, CERT verify (15):\n","timestamp":1725385134287}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Finished (20):\n","timestamp":1725385134287}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Finished (20):\n","timestamp":1725385134287}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n","timestamp":1725385134287}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134287}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Finished (20):\n","timestamp":1725385134287}
+{"name":"Text","value":"SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384\n","timestamp":1725385134287}
+{"name":"Text","value":"ALPN, server accepted to use h2\n","timestamp":1725385134287}
+{"name":"Text","value":"Server certificate:\n","timestamp":1725385134287}
+{"name":"Text","value":" subject: CN=worldsprings.com\n","timestamp":1725385134287}
+{"name":"Text","value":" start date: Aug  3 03:24:15 2024 GMT\n","timestamp":1725385134287}
+{"name":"Text","value":" expire date: Nov  1 03:24:14 2024 GMT\n","timestamp":1725385134287}
+{"name":"Text","value":" subjectAltName: host \"worldsprings.com\" matched cert's \"worldsprings.com\"\n","timestamp":1725385134287}
+{"name":"Text","value":" issuer: C=US; O=Google Trust Services; CN=WE1\n","timestamp":1725385134287}
+{"name":"Text","value":" SSL certificate verify ok.\n","timestamp":1725385134287}
+{"name":"Text","value":"Using HTTP2, server supports multiplexing\n","timestamp":1725385134287}
+{"name":"Text","value":"Connection state changed (HTTP/2 confirmed)\n","timestamp":1725385134287}
+{"name":"Text","value":"Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n","timestamp":1725385134287}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134287}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134287}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134287}
+{"name":"Text","value":"Using Stream ID: 1 (easy handle 0x140008bc600)\n","timestamp":1725385134287}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134287}
+{"name":"HeaderOut","value":"GET /api/map HTTP/2\r\nHost: worldsprings.com\r\nuser-agent: insomnia/9.3.2\r\naccept: */*\r\n\r\n","timestamp":1725385134287}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134303}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1725385134303}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1725385134303}
+{"name":"Text","value":"old SSL session ID is stale, removing\n","timestamp":1725385134303}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134303}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134303}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134319}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"HTTP/2 308 \r\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"date: Tue, 03 Sep 2024 17:38:54 GMT\r\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"content-type: text/plain\r\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"location: https://www.worldsprings.com/api/map\r\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"cache-control: public, max-age=0, must-revalidate\r\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"refresh: 0;url=https://www.worldsprings.com/api/map\r\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=63072000\r\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"x-vercel-id: gru1::vm8hv-1725385134452-f0de5af96f7c\r\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"cf-cache-status: DYNAMIC\r\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"server: cloudflare\r\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"cf-ray: 8bd78421cd501ea0-EZE\r\n","timestamp":1725385134428}
+{"name":"HeaderIn","value":"\r\n","timestamp":1725385134428}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134428}
+{"name":"Text","value":"Ignoring the response-body\n","timestamp":1725385134428}
+{"name":"Text","value":"Received 15 B chunk","timestamp":1725385134428}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134446}
+{"name":"Text","value":"Connection #12 to host worldsprings.com left intact\n","timestamp":1725385134446}
+{"name":"Text","value":"Issue another request to this URL: 'https://www.worldsprings.com/api/map'\n","timestamp":1725385134446}
+{"name":"Text","value":"  Trying 172.67.41.24:443...\n","timestamp":1725385134480}
+{"name":"Text","value":"Connected to www.worldsprings.com (172.67.41.24) port 443 (#13)\n","timestamp":1725385134502}
+{"name":"Text","value":"ALPN, offering h2\n","timestamp":1725385134504}
+{"name":"Text","value":"ALPN, offering http/1.1\n","timestamp":1725385134504}
+{"name":"Text","value":" CAfile: /etc/ssl/cert.pem\n","timestamp":1725385134549}
+{"name":"Text","value":"TLSv1.0 (OUT), TLS header, Certificate Status (22):\n","timestamp":1725385134550}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Client hello (1):\n","timestamp":1725385134550}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Certificate Status (22):\n","timestamp":1725385134571}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Server hello (2):\n","timestamp":1725385134571}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Finished (20):\n","timestamp":1725385134571}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134571}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n","timestamp":1725385134571}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Certificate (11):\n","timestamp":1725385134571}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, CERT verify (15):\n","timestamp":1725385134574}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Finished (20):\n","timestamp":1725385134574}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Finished (20):\n","timestamp":1725385134574}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n","timestamp":1725385134574}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134574}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Finished (20):\n","timestamp":1725385134574}
+{"name":"Text","value":"SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384\n","timestamp":1725385134574}
+{"name":"Text","value":"ALPN, server accepted to use h2\n","timestamp":1725385134574}
+{"name":"Text","value":"Server certificate:\n","timestamp":1725385134574}
+{"name":"Text","value":" subject: CN=worldsprings.com\n","timestamp":1725385134574}
+{"name":"Text","value":" start date: Aug  3 03:24:15 2024 GMT\n","timestamp":1725385134574}
+{"name":"Text","value":" expire date: Nov  1 03:24:14 2024 GMT\n","timestamp":1725385134574}
+{"name":"Text","value":" subjectAltName: host \"www.worldsprings.com\" matched cert's \"*.worldsprings.com\"\n","timestamp":1725385134574}
+{"name":"Text","value":" issuer: C=US; O=Google Trust Services; CN=WE1\n","timestamp":1725385134574}
+{"name":"Text","value":" SSL certificate verify ok.\n","timestamp":1725385134574}
+{"name":"Text","value":"Using HTTP2, server supports multiplexing\n","timestamp":1725385134574}
+{"name":"Text","value":"Connection state changed (HTTP/2 confirmed)\n","timestamp":1725385134574}
+{"name":"Text","value":"Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n","timestamp":1725385134574}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134574}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134574}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134574}
+{"name":"Text","value":"Using Stream ID: 1 (easy handle 0x140008bc600)\n","timestamp":1725385134574}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134574}
+{"name":"HeaderOut","value":"GET /api/map HTTP/2\r\nHost: www.worldsprings.com\r\nuser-agent: insomnia/9.3.2\r\naccept: */*\r\n\r\n","timestamp":1725385134574}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134590}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1725385134590}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1725385134590}
+{"name":"Text","value":"old SSL session ID is stale, removing\n","timestamp":1725385134590}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134590}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725385134590}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134606}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134720}
+{"name":"HeaderIn","value":"HTTP/2 404 \r\n","timestamp":1725385134720}
+{"name":"HeaderIn","value":"date: Tue, 03 Sep 2024 17:38:54 GMT\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"content-type: text/plain;charset=UTF-8\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"content-length: 20\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"accept-ranges: bytes\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"access-control-allow-origin: *\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"age: 110\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"cache-control: public, max-age=0, must-revalidate\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"content-disposition: inline\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"etag: \"16ca4ba20600508e580da4662a2f00fa\"\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=63072000\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"x-matched-path: /api/map\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"x-vercel-cache: HIT\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"x-vercel-id: gru1::tt5vx-1725385134739-eec6e1ceb971\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"cf-cache-status: DYNAMIC\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"server: cloudflare\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"cf-ray: 8bd7842398671ea0-EZE\r\n","timestamp":1725385134721}
+{"name":"HeaderIn","value":"\r\n","timestamp":1725385134721}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725385134721}
+{"name":"Text","value":"Received 20 B chunk","timestamp":1725385134721}
+{"name":"Text","value":"Connection #13 to host www.worldsprings.com left intact\n","timestamp":1725385134721}

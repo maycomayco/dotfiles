@@ -1,0 +1,10 @@
+{"value":"Preparing request to http:///api/v1/newbalance","name":"Text","timestamp":1777038513743}
+{"value":"Current time is 2026-04-24T13:48:33.743Z","name":"Text","timestamp":1777038513743}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1777038513743}
+{"value":"Using default HTTP version","name":"Text","timestamp":1777038513743}
+{"value":"Enable SSL validation","name":"Text","timestamp":1777038513743}
+{"name":"Text","value":"Too old connection (705 seconds idle), disconnect it\n","timestamp":1777038513743}
+{"name":"Text","value":"Connection 28 seems to be dead\n","timestamp":1777038513743}
+{"name":"Text","value":"Closing connection 28\n","timestamp":1777038513743}
+{"name":"Text","value":"Could not resolve host: api\n","timestamp":1777038513769}
+{"name":"Text","value":"Closing connection 29\n","timestamp":1777038513769}

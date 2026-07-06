@@ -1,0 +1,558 @@
+cr_sdk_initialize: Adobe Lightroom 7.4.1 (Macintosh), version 16.4x1897, 64-bit, Release
+gDNGMaxSIMD: 1
+Memory allocator: baseline (cr_memory_allocator)
+libdispatch threading: yes
+thread type: dispatch
+ACE thread type: dispatch
+OS: 13.5.1
+CPU: Apple M1 Pro
+MPProcessorCount (hyperthreading = false): 10
+MPProcessorCount (hyperthreading = true): 10
+MPThreadCount: 6
+std::thread::hardware_concurrency: 10
+AVX support: no
+AVX2 support: no
+AVX512 support: no
+System physical RAM: 16 GB
+PatchMatch initialized (version 6.0.0.0). Using 10 threads.
+Initialize GPU system
+Read GPU config
+Safe load GPU
+Building pipeline states for Apple M1 Pro
+Loaded GPU system: Metal
+GPU primary driver version: 13.5.1
+GPU device count: 1
+GPU device names: Apple M1 Pro
+GPU3 allow list: yes
+GPU3 deny list: no
+GPU3 prev digest: D56940FD4C29024C8AEC85C6F0A202C5
+GPU3 new digest: D56940FD4C29024C8AEC85C6F0A202C5
+Need to run gpu self tests : False.
+GPU Init Status (part 1): I2_GPU2
+GPU3 Hard Status Result (part 1): unknown
+GPU3 Soft Status Result (part 1): success
+GPU4 Hard Status Result (part 1): unknown
+GPU4 Soft Status Result (part 1): success
+Apple M1 Pro: Building compute pipeline state (1/257)
+MaxTotalThreadsPerThreadGroup: TestNOPCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (2/257)
+MaxTotalThreadsPerThreadGroup: Test1dFunctionsCompute,896,896
+Apple M1 Pro: Building compute pipeline state (3/257)
+MaxTotalThreadsPerThreadGroup: TestComputeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (4/257)
+MaxTotalThreadsPerThreadGroup: TestComputeSpeedCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (5/257)
+MaxTotalThreadsPerThreadGroup: TestDispatchIndirectFillBuffersCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (6/257)
+MaxTotalThreadsPerThreadGroup: TestDispatchIndirectRecordInfoCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (7/257)
+MaxTotalThreadsPerThreadGroup: TestDoRenderCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (8/257)
+MaxTotalThreadsPerThreadGroup: TestMarkTip32Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (9/257)
+MaxTotalThreadsPerThreadGroup: TestShader1_BufInPlace_2D_R32FloatCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (10/257)
+MaxTotalThreadsPerThreadGroup: TestShader1_BufPingPong_2D_R32FloatCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (11/257)
+MaxTotalThreadsPerThreadGroup: TestShader1_TexPingPong_2DCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (12/257)
+MaxTotalThreadsPerThreadGroup: AutoLateralCAWarpTransformCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (13/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (14/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (15/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (16/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (17/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (18/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass1PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (19/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (20/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (21/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (22/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius4Compute,832,832
+Apple M1 Pro: Building compute pipeline state (23/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius5Compute,832,832
+Apple M1 Pro: Building compute pipeline state (24/257)
+MaxTotalThreadsPerThreadGroup: Blur1Pass4PlaneRadius6Compute,640,640
+Apple M1 Pro: Building compute pipeline state (25/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (26/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (27/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (28/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (29/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (30/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (31/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown1PlaneRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (32/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (33/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (34/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (35/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (36/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (37/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (38/257)
+MaxTotalThreadsPerThreadGroup: BlurAcrossOrDown4PlaneRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (39/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (40/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (41/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (42/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (43/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (44/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass1PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (45/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (46/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius2Compute,896,896
+Apple M1 Pro: Building compute pipeline state (47/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius3Compute,512,512
+Apple M1 Pro: Building compute pipeline state (48/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius4Compute,384,384
+Apple M1 Pro: Building compute pipeline state (49/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass2PlanePlusAffinePlusPreprocessRadius5Compute,384,384
+Apple M1 Pro: Building compute pipeline state (50/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (51/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius2Compute,704,704
+Apple M1 Pro: Building compute pipeline state (52/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius3Compute,448,448
+Apple M1 Pro: Building compute pipeline state (53/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius4Compute,384,384
+Apple M1 Pro: Building compute pipeline state (54/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (55/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass3PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (56/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (57/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (58/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (59/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (60/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius5Compute,832,832
+Apple M1 Pro: Building compute pipeline state (61/257)
+MaxTotalThreadsPerThreadGroup: BoxBlur1Pass4PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (62/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (63/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (64/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (65/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (66/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (67/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (68/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (69/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross1PlanePlusIpProductRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (70/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (71/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (72/257)
+Intel Compiler: no
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (73/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (74/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (75/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (76/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (77/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross2PlaneRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (78/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (79/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (80/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (81/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (82/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (83/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (84/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (85/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcross3PlanePlusIpProductRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (86/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (87/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (88/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (89/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (90/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (91/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (92/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (93/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurAcrossOrDown4PlaneRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (94/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (95/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (96/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (97/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (98/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (99/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (100/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (101/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown1PlanePlusComputeABRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (102/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (103/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (104/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (105/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (106/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (107/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (108/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (109/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown2PlanePlusAffinePlusPreprocessRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (110/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (111/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (112/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (113/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (114/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (115/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (116/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (117/257)
+MaxTotalThreadsPerThreadGroup: BoxBlurDown3PlanePlusComputeABRadiusNMovingAverageCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (118/257)
+MaxTotalThreadsPerThreadGroup: Copy2PlaneTextureTo4PlaneTextureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (119/257)
+MaxTotalThreadsPerThreadGroup: CopyBuffer16sToTexture32Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (120/257)
+MaxTotalThreadsPerThreadGroup: CopyBuffer16uToTexture32Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (121/257)
+MaxTotalThreadsPerThreadGroup: CopyBuffer32ToTexture32Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (122/257)
+MaxTotalThreadsPerThreadGroup: CopyBufferToBufferCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (123/257)
+MaxTotalThreadsPerThreadGroup: CopyBufferToTextureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (124/257)
+MaxTotalThreadsPerThreadGroup: CopyTexelBufferToTexelBufferCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (125/257)
+MaxTotalThreadsPerThreadGroup: CopyTextureToBufferCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (126/257)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (127/257)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithDitherCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (128/257)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithEdgeOptionCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (129/257)
+MaxTotalThreadsPerThreadGroup: CopyTextureToTextureWithPaddingCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (130/257)
+MaxTotalThreadsPerThreadGroup: DefringeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (131/257)
+MaxTotalThreadsPerThreadGroup: DefringeBlendBlurNonBlurredCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (132/257)
+MaxTotalThreadsPerThreadGroup: DefringeCompositeMaskCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (133/257)
+MaxTotalThreadsPerThreadGroup: DefringeHDRDecodeNonLinearCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (134/257)
+MaxTotalThreadsPerThreadGroup: DefringeHDREncodeNonLinearCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (135/257)
+MaxTotalThreadsPerThreadGroup: DefringeMaskCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (136/257)
+MaxTotalThreadsPerThreadGroup: DefringeMaxAcrossRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (137/257)
+MaxTotalThreadsPerThreadGroup: DefringeMaxDownRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (138/257)
+MaxTotalThreadsPerThreadGroup: DefringeMaxMaskCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (139/257)
+MaxTotalThreadsPerThreadGroup: DefringeMinMaskCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (140/257)
+MaxTotalThreadsPerThreadGroup: DefringeMultiplyMaskCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (141/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (142/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (143/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (144/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (145/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (146/257)
+MaxTotalThreadsPerThreadGroup: DehazeMin1Pass1PlanePlusDarkChannelPreprocessRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (147/257)
+MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneAcrossPlusDarkChannelRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (148/257)
+MaxTotalThreadsPerThreadGroup: DehazeMinFilter1PlaneDownPlusPreprocessRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (149/257)
+MaxTotalThreadsPerThreadGroup: DehazeTrMDarkChannelCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (150/257)
+MaxTotalThreadsPerThreadGroup: DehazeTrMEmitIndexedRGBLCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (151/257)
+MaxTotalThreadsPerThreadGroup: DehazeTrMSetConstantAirlightCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (152/257)
+MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (153/257)
+MaxTotalThreadsPerThreadGroup: DenoiseAlphaBlendLocalCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (154/257)
+MaxTotalThreadsPerThreadGroup: DenoiseBlendEdgesCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (155/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCopyLumAndColorCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (156/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (157/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (158/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (159/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (160/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (161/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadius6Compute,832,832
+Apple M1 Pro: Building compute pipeline state (162/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBilateralAcrossOrDownRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (163/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (164/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (165/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (166/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (167/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (168/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (169/257)
+MaxTotalThreadsPerThreadGroup: DenoiseCrossBoxBlurWithDetailAcrossOrDownRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (170/257)
+MaxTotalThreadsPerThreadGroup: DenoiseDeltaFindFeatureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (171/257)
+MaxTotalThreadsPerThreadGroup: DenoiseDiffuseEdgeMarkersCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (172/257)
+MaxTotalThreadsPerThreadGroup: DenoiseFindAndRemoveNoiseBlockCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (173/257)
+MaxTotalThreadsPerThreadGroup: DenoiseMakeDeltaCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (174/257)
+MaxTotalThreadsPerThreadGroup: DenoiseOptionKeyFeedbackCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (175/257)
+MaxTotalThreadsPerThreadGroup: DenoisePrelimEdgeDirectionCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (176/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildHpCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (177/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (178/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidBuildLp3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (179/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (180/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithHpCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (181/257)
+MaxTotalThreadsPerThreadGroup: DenoisePyramidCollapseLp3WithoutHpCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (182/257)
+MaxTotalThreadsPerThreadGroup: DenoiseRank3x3PlusHpThresholdCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (183/257)
+MaxTotalThreadsPerThreadGroup: DenoiseRecordMaxBorderCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (184/257)
+MaxTotalThreadsPerThreadGroup: DenoiseRefineDeltasCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (185/257)
+MaxTotalThreadsPerThreadGroup: DenoiseRefineRefEdgeDirectionsCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (186/257)
+MaxTotalThreadsPerThreadGroup: DenoiseSmoothEdgesCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (187/257)
+MaxTotalThreadsPerThreadGroup: DenoiseSmoothNonEdgeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (188/257)
+MaxTotalThreadsPerThreadGroup: DrawLineOnTexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (189/257)
+MaxTotalThreadsPerThreadGroup: FillBufferCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (190/257)
+MaxTotalThreadsPerThreadGroup: FillBuffer1PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (191/257)
+MaxTotalThreadsPerThreadGroup: FillTextureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (192/257)
+MaxTotalThreadsPerThreadGroup: Histogram1PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (193/257)
+MaxTotalThreadsPerThreadGroup: Histogram3PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (194/257)
+MaxTotalThreadsPerThreadGroup: LocalContrastYCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (195/257)
+MaxTotalThreadsPerThreadGroup: LocalCorrectionCompositeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (196/257)
+MaxTotalThreadsPerThreadGroup: ManualDistortionTransformCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (197/257)
+MaxTotalThreadsPerThreadGroup: MaskRenderComboCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (198/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (199/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (200/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius3Compute,896,896
+Apple M1 Pro: Building compute pipeline state (201/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius4Compute,896,896
+Apple M1 Pro: Building compute pipeline state (202/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (203/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlur1PassAndBlendRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (204/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlurAcrossRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (205/257)
+MaxTotalThreadsPerThreadGroup: MoireBoxBlurDownAndBlendRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (206/257)
+MaxTotalThreadsPerThreadGroup: MoireCombine3Plane1PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (207/257)
+MaxTotalThreadsPerThreadGroup: OutputSharpenEncodeHDRCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (208/257)
+MaxTotalThreadsPerThreadGroup: OutputSharpenEncodeSDRCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (209/257)
+MaxTotalThreadsPerThreadGroup: OutputSharpenHPAndBlendAndDecodeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (210/257)
+MaxTotalThreadsPerThreadGroup: OutputSharpenUSMWithThresholdCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (211/257)
+MaxTotalThreadsPerThreadGroup: OverlayGrainCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (212/257)
+MaxTotalThreadsPerThreadGroup: PerspectiveTransformCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (213/257)
+MaxTotalThreadsPerThreadGroup: RadialTableWarpTransformCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (214/257)
+MaxTotalThreadsPerThreadGroup: ReorientTextureCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (215/257)
+MaxTotalThreadsPerThreadGroup: Sample1PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (216/257)
+MaxTotalThreadsPerThreadGroup: Sample4PlaneCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (217/257)
+MaxTotalThreadsPerThreadGroup: Sequence1TexCompute,896,896
+Apple M1 Pro: Building compute pipeline state (218/257)
+MaxTotalThreadsPerThreadGroup: Sequence2TexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (219/257)
+MaxTotalThreadsPerThreadGroup: Sequence3TexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (220/257)
+MaxTotalThreadsPerThreadGroup: Sequence4TexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (221/257)
+MaxTotalThreadsPerThreadGroup: Sequence5TexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (222/257)
+MaxTotalThreadsPerThreadGroup: Sequence6TexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (223/257)
+MaxTotalThreadsPerThreadGroup: SequentialMaskCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (224/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (225/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (226/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (227/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (228/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (229/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadius6Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (230/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurDownSharpenRadiusNCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (231/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (232/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius2Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (233/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius3Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (234/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius4Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (235/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius5Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (236/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3BlurSharpen1PassRadius6Compute,832,832
+Apple M1 Pro: Building compute pipeline state (237/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3CompositePlusCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (238/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3EdgeDiff1PassRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (239/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3LensBlurCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (240/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3MinMax1PassRadius1Compute,1024,1024
+Apple M1 Pro: Building compute pipeline state (241/257)
+MaxTotalThreadsPerThreadGroup: Sharpen3RGBtoRGBYPlusEncodeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (242/257)
+MaxTotalThreadsPerThreadGroup: SkewHCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (243/257)
+MaxTotalThreadsPerThreadGroup: SkewVCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (244/257)
+MaxTotalThreadsPerThreadGroup: SolidFrameTexCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (245/257)
+MaxTotalThreadsPerThreadGroup: SortPhase0HistogramsZeroCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (246/257)
+MaxTotalThreadsPerThreadGroup: SortPhase1HistogramsCalcCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (247/257)
+MaxTotalThreadsPerThreadGroup: SortPhase2HistogramsScanCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (248/257)
+MaxTotalThreadsPerThreadGroup: SortPhase3ScatterCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (249/257)
+MaxTotalThreadsPerThreadGroup: SortPhase4LocalSortCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (250/257)
+MaxTotalThreadsPerThreadGroup: SortPhase5UnsortedFinalCopyCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (251/257)
+MaxTotalThreadsPerThreadGroup: TextureAffinePlusCompositeCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (252/257)
+MaxTotalThreadsPerThreadGroup: TextureEncodeLogYCCCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (253/257)
+MaxTotalThreadsPerThreadGroup: TextureUnitInfoCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (254/257)
+MaxTotalThreadsPerThreadGroup: WarpCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (255/257)
+MaxTotalThreadsPerThreadGroup: Warp4X4Compute,512,512
+Apple M1 Pro: Building compute pipeline state (256/257)
+MaxTotalThreadsPerThreadGroup: WarpPlanesDifferentCompute,1024,1024
+Apple M1 Pro: Building compute pipeline state (257/257)
+MaxTotalThreadsPerThreadGroup: WarpPlanesDifferent4X4Compute,1024,1024
+Apple M1 Pro: Finished building compute pipeline states.
+GPU Init Status (part 2): I4_GPU4
+GPU3 Hard Status Result (part 2): success
+GPU3 Soft Status Result (part 2): success
+GPU4 Hard Status Result (part 2): success
+GPU4 Soft Status Result (part 2): success
+Terminate GPU system
+cr_sdk_terminate

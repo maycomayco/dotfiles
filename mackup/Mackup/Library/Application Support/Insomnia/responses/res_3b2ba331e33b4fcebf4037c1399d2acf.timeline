@@ -1,0 +1,12 @@
+{"value":"Preparing request to http://localhost:3001/api/v1/newbalance","name":"Text","timestamp":1777038736352}
+{"value":"Current time is 2026-04-24T13:52:16.352Z","name":"Text","timestamp":1777038736352}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1777038736352}
+{"value":"Using default HTTP version","name":"Text","timestamp":1777038736352}
+{"value":"Enable SSL validation","name":"Text","timestamp":1777038736352}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1777038736353}
+{"name":"Text","value":"  Trying 127.0.0.1:3001...\n","timestamp":1777038736353}
+{"name":"Text","value":"connect to 127.0.0.1 port 3001 failed: Connection refused\n","timestamp":1777038736353}
+{"name":"Text","value":"  Trying [::1]:3001...\n","timestamp":1777038736353}
+{"name":"Text","value":"connect to ::1 port 3001 failed: Connection refused\n","timestamp":1777038736353}
+{"name":"Text","value":"Failed to connect to localhost port 3001 after 0 ms: Couldn't connect to server\n","timestamp":1777038736353}
+{"name":"Text","value":"Closing connection 32\n","timestamp":1777038736353}

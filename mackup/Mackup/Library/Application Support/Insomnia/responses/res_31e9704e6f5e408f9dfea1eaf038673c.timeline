@@ -1,0 +1,36 @@
+{"value":"Preparing request to https://a.klaviyo.com/api/profiles?filter=equals(email,%22mayco%40full.com%22)","name":"Text","timestamp":1725054608004}
+{"value":"Current time is 2024-08-30T21:50:08.004Z","name":"Text","timestamp":1725054608004}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1725054608004}
+{"value":"Using default HTTP version","name":"Text","timestamp":1725054608004}
+{"value":"Enable SSL validation","name":"Text","timestamp":1725054608004}
+{"name":"Text","value":"Found bundle for host a.klaviyo.com: 0x14005a6a6c0 [can multiplex]\n","timestamp":1725054608004}
+{"name":"Text","value":"Re-using existing connection! (#0) with host a.klaviyo.com\n","timestamp":1725054608004}
+{"name":"Text","value":"Connected to a.klaviyo.com (172.64.147.119) port 443 (#0)\n","timestamp":1725054608004}
+{"name":"Text","value":"Using Stream ID: 3 (easy handle 0x140008c3400)\n","timestamp":1725054608004}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725054608004}
+{"name":"HeaderOut","value":"GET /api/profiles?filter=equals(email,%22mayco%40full.com%22) HTTP/2\r\nHost: a.klaviyo.com\r\nauthorization: Klaviyo-API-Key pk_c111d787188b438a73d21bf6b9368b5e00\r\naccept: application/json\r\nrevision: 2024-06-15\r\n\r\n","timestamp":1725054608004}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"date: Fri, 30 Aug 2024 21:50:08 GMT\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"content-type: application/vnd.api+json\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"content-length: 1359\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"cf-ray: 8bb7fea56ae9a79f-EZE\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"cf-cache-status: DYNAMIC\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"allow: GET, POST, HEAD, OPTIONS\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"content-language: en-us\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=31536000; includeSubDomains; preload\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"vary: Accept-Language, Cookie\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"cid: XAchq5\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"content-security-policy: frame-ancestors 'self' login.bigcommerce.com *.mybigcommerce.com admin.shopify.com klaviyo.file.force.com klaviyo.lightning.force.com klaviyo.my.salesforce.com; script-src 'report-sample' 'strict-dynamic' 'unsafe-eval'; base-uri 'none'; object-src 'none'; report-uri /csp/\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"ratelimit-limit: 75, 75;w=1, 700;w=60\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"ratelimit-remaining: 74\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"ratelimit-reset: 0\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"x-content-type-options: nosniff\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"x-klaviyo-api-revision: 2024-06-15\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"x-robots-tag: noindex, nofollow\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"server: cloudflare\r\n","timestamp":1725054608285}
+{"name":"HeaderIn","value":"\r\n","timestamp":1725054608285}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725054608285}
+{"name":"Text","value":"Received 1359 B chunk","timestamp":1725054608285}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725054608286}
+{"name":"Text","value":"Connection #0 to host a.klaviyo.com left intact\n","timestamp":1725054608286}

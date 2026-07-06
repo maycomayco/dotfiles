@@ -1,0 +1,85 @@
+{"value":"Preparing request to https://api-us.beonic.io/v1/api/accounts/4000000721/occupancy?counter=20104,20105,20106,20107,20108,20109,20110,20111,20112,20113,20093,20094,20095,20096,20097,20098,20099,20100,20101,20102,20080,20081,20082,20083,20084,20085,20086,20087,20088,20089,20079,20090,20091,20119,20070,20071,20072,20073,20074,20075,20076,20077,20078,20092,20103,20114","name":"Text","timestamp":1724253738379}
+{"value":"Current time is 2024-08-21T15:22:18.379Z","name":"Text","timestamp":1724253738379}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1724253738379}
+{"value":"Using default HTTP version","name":"Text","timestamp":1724253738380}
+{"value":"Enable SSL validation","name":"Text","timestamp":1724253738380}
+{"value":"Enable cookie sending with jar of 2 cookies","name":"Text","timestamp":1724253738380}
+{"name":"Text","value":"Too old connection (3593 seconds), disconnect it\n","timestamp":1724253738380}
+{"name":"Text","value":"Connection 7 seems to be dead!\n","timestamp":1724253738380}
+{"name":"Text","value":"Closing connection 7\n","timestamp":1724253738380}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1724253738380}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS alert, decode error (562):\n","timestamp":1724253738380}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1724253738381}
+{"name":"Text","value":"  Trying 50.18.40.238:443...\n","timestamp":1724253738383}
+{"name":"Text","value":"Connected to api-us.beonic.io (50.18.40.238) port 443 (#8)\n","timestamp":1724253738662}
+{"name":"Text","value":"ALPN, offering h2\n","timestamp":1724253738664}
+{"name":"Text","value":"ALPN, offering http/1.1\n","timestamp":1724253738664}
+{"name":"Text","value":" CAfile: /etc/ssl/cert.pem\n","timestamp":1724253738692}
+{"name":"Text","value":"TLSv1.0 (OUT), TLS header, Certificate Status (22):\n","timestamp":1724253738692}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Client hello (1):\n","timestamp":1724253738692}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Certificate Status (22):\n","timestamp":1724253738916}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Server hello (2):\n","timestamp":1724253738916}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Finished (20):\n","timestamp":1724253738917}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724253738917}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n","timestamp":1724253738917}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724253738917}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Certificate (11):\n","timestamp":1724253738917}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724253738919}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, CERT verify (15):\n","timestamp":1724253738919}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724253738920}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Finished (20):\n","timestamp":1724253738920}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Finished (20):\n","timestamp":1724253738920}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n","timestamp":1724253738920}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1724253738920}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Finished (20):\n","timestamp":1724253738920}
+{"name":"Text","value":"SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384\n","timestamp":1724253738920}
+{"name":"Text","value":"ALPN, server accepted to use h2\n","timestamp":1724253738920}
+{"name":"Text","value":"Server certificate:\n","timestamp":1724253738920}
+{"name":"Text","value":" subject: C=AU; ST=New South Wales; L=Potts Point; O=SKYFII LTD; CN=*.beonic.io\n","timestamp":1724253738920}
+{"name":"Text","value":" start date: Jul 30 00:00:00 2024 GMT\n","timestamp":1724253738920}
+{"name":"Text","value":" expire date: Sep  1 23:59:59 2024 GMT\n","timestamp":1724253738920}
+{"name":"Text","value":" subjectAltName: host \"api-us.beonic.io\" matched cert's \"*.beonic.io\"\n","timestamp":1724253738920}
+{"name":"Text","value":" issuer: C=US; O=DigiCert Inc; CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1\n","timestamp":1724253738920}
+{"name":"Text","value":" SSL certificate verify ok.\n","timestamp":1724253738920}
+{"name":"Text","value":"Using HTTP2, server supports multiplexing\n","timestamp":1724253738920}
+{"name":"Text","value":"Connection state changed (HTTP/2 confirmed)\n","timestamp":1724253738920}
+{"name":"Text","value":"Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n","timestamp":1724253738920}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1724253738920}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1724253738920}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1724253738920}
+{"name":"Text","value":"Using Stream ID: 1 (easy handle 0x11c008cc600)\n","timestamp":1724253738920}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1724253738920}
+{"name":"HeaderOut","value":"GET /v1/api/accounts/4000000721/occupancy?counter=20104,20105,20106,20107,20108,20109,20110,20111,20112,20113,20093,20094,20095,20096,20097,20098,20099,20100,20101,20102,20080,20081,20082,20083,20084,20085,20086,20087,20088,20089,20079,20090,20091,20119,20070,20071,20072,20073,20074,20075,20076,20077,20078,20092,20103,20114 HTTP/2\r\nHost: api-us.beonic.io\r\ncookie: JSESSIONID=56A08EEC003C30FE99DD493E8EFAF59F\r\nuser-agent: insomnia/9.3.2\r\nauthorization: Basic OVZHanF0VXdhdTVIcUZrRzpGbms2a0hYTUdpMTk2eVVzVjV4YXJzTWQ=\r\naccept: */*\r\n\r\n","timestamp":1724253738920}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724253739142}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1724253739143}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724253739143}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1724253739143}
+{"name":"Text","value":"old SSL session ID is stale, removing\n","timestamp":1724253739143}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724253739143}
+{"name":"Text","value":"Connection state changed (MAX_CONCURRENT_STREAMS == 128)!\n","timestamp":1724253739143}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1724253739143}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724253739143}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"date: Wed, 21 Aug 2024 15:22:19 GMT\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"content-length: 7569\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"vary: Origin\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"vary: Access-Control-Request-Method\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"vary: Access-Control-Request-Headers\r\n","timestamp":1724253739215}
+{"name":"Text","value":"Replaced cookie JSESSIONID=\"B91554CF709E0E33A58FC7BB81651754\" for domain api-us.beonic.io, path /, expire 0\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"set-cookie: JSESSIONID=B91554CF709E0E33A58FC7BB81651754; Path=/; Secure; HttpOnly\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"cache-control: no-cache, no-store, max-age=0, must-revalidate\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"pragma: no-cache\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"expires: 0\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=15724800; includeSubDomains\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"x-xss-protection: 1; mode=block\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"x-frame-options: DENY\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"x-content-type-options: nosniff\r\n","timestamp":1724253739215}
+{"name":"HeaderIn","value":"\r\n","timestamp":1724253739215}
+{"name":"Text","value":"Received 3.5 KB chunk","timestamp":1724253739216}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724253739216}
+{"name":"Text","value":"Received 3.9 KB chunk","timestamp":1724253739216}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1724253739216}
+{"name":"Text","value":"Connection #8 to host api-us.beonic.io left intact\n","timestamp":1724253739216}
+{"value":"Saved 1 cookies","name":"Text","timestamp":1724253739221}

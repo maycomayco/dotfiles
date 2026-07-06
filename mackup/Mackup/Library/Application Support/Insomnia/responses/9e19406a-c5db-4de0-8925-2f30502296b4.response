@@ -1,0 +1,1 @@
+{"errors":[{"id":"03577d63-6744-4def-805d-9035aa25b196","status":401,"code":"not_authenticated","title":"Authentication credentials were not provided.","detail":"Authentication credentials were not provided.","source":{"pointer":"/data/"}}]}

@@ -1,0 +1,20 @@
+{
+  "id": "71a5db2440c8882685df87544950aea687c795a2",
+  "name": "Initial Snapshot",
+  "state": [
+    {
+      "key": "wrk_99ac5543c3c94d67a4ebce353a60dc12",
+      "name": "/map",
+      "blob": "e6737537ced09d3c6569bad3c509c9fa4bdf2f2d"
+    },
+    {
+      "key": "env_b799c583d9f654f64b3c53796f2ab57853f0c9d1",
+      "name": "Base Environment",
+      "blob": "43976b778ae6251f8d4b262bc22940492c3397e5"
+    }
+  ],
+  "author": "",
+  "parent": "0000000000000000000000000000000000000000",
+  "created": "2024-09-03T16:12:29.151Z",
+  "description": ""
+}

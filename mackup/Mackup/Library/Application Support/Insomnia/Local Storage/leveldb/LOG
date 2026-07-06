@@ -1,0 +1,9 @@
+2026/07/04-14:44:17.228 2bc1b6 Reusing MANIFEST /Users/mayco/Library/Application Support/Insomnia/Local Storage/leveldb/MANIFEST-000001
+2026/07/04-14:44:17.228 2bc1b6 Recovering log #10
+2026/07/04-14:44:17.229 2bc1b6 Reusing old log /Users/mayco/Library/Application Support/Insomnia/Local Storage/leveldb/000010.log 
+2026/07/04-15:14:18.319 2bc1b9 Level-0 table #14: started
+2026/07/04-15:14:18.335 2bc1b9 Level-0 table #14: 17623 bytes OK
+2026/07/04-15:14:18.342 2bc1b9 Delete type=0 #10
+2026/07/06-09:21:43.348 2bc1b9 Level-0 table #16: started
+2026/07/06-09:21:43.359 2bc1b9 Level-0 table #16: 8394 bytes OK
+2026/07/06-09:21:43.365 2bc1b9 Delete type=0 #13

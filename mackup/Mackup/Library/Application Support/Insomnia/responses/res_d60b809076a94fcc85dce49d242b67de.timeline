@@ -1,0 +1,23 @@
+{"value":"Preparing request to http://localhost:3001/api/v1/newbalance","name":"Text","timestamp":1776966580882}
+{"value":"Current time is 2026-04-23T17:49:40.882Z","name":"Text","timestamp":1776966580882}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1776966580882}
+{"value":"Using default HTTP version","name":"Text","timestamp":1776966580883}
+{"value":"Enable SSL validation","name":"Text","timestamp":1776966580883}
+{"name":"Text","value":"Connection 10 seems to be dead\n","timestamp":1776966580883}
+{"name":"Text","value":"Closing connection 10\n","timestamp":1776966580883}
+{"name":"Text","value":"Hostname localhost was found in DNS cache\n","timestamp":1776966580883}
+{"name":"Text","value":"  Trying 127.0.0.1:3001...\n","timestamp":1776966580883}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 3001 (#11)\n","timestamp":1776966580884}
+{"name":"HeaderOut","value":"GET /api/v1/newbalance HTTP/1.1\r\nHost: localhost:3001\r\nUser-Agent: insomnia/11.6.1\r\nAccept: */*\r\n\r\n","timestamp":1776966580884}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1776966590908}
+{"name":"HeaderIn","value":"HTTP/1.1 504 Gateway Timeout\r\n","timestamp":1776966590908}
+{"name":"HeaderIn","value":"X-Powered-By: Express\r\n","timestamp":1776966590908}
+{"name":"HeaderIn","value":"Content-Type: application/json; charset=utf-8\r\n","timestamp":1776966590908}
+{"name":"HeaderIn","value":"Content-Length: 28\r\n","timestamp":1776966590908}
+{"name":"HeaderIn","value":"ETag: W/\"1c-wdh3TXEBu2t7n3+tS2Lmmvs6O7o\"\r\n","timestamp":1776966590908}
+{"name":"HeaderIn","value":"Date: Thu, 23 Apr 2026 17:49:50 GMT\r\n","timestamp":1776966590908}
+{"name":"HeaderIn","value":"Connection: keep-alive\r\n","timestamp":1776966590908}
+{"name":"HeaderIn","value":"Keep-Alive: timeout=5\r\n","timestamp":1776966590908}
+{"name":"HeaderIn","value":"\r\n","timestamp":1776966590908}
+{"name":"Text","value":"Received 28 B chunk","timestamp":1776966590908}
+{"name":"Text","value":"Connection #11 to host localhost left intact\n","timestamp":1776966590908}

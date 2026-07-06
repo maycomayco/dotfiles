@@ -1,0 +1,1 @@
+{"errors":[{"id":"9f8043dd-edc8-4546-a7db-a9f927b565e2","status":400,"code":"invalid","title":"Invalid input.","detail":"'?additional-fields[profile]' is not an allowed query parameter.","source":{"parameter":"?additional-fields[profile]"},"links":{},"meta":{}}]}

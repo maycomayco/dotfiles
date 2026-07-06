@@ -1,0 +1,34 @@
+{"value":"Preparing request to https://api-us.skyfii.com/v1/api/accounts/4000000721/entities/CountSensorElement","name":"Text","timestamp":1721225052822}
+{"value":"Current time is 2024-07-17T14:04:12.822Z","name":"Text","timestamp":1721225052822}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1721225052822}
+{"value":"Using default HTTP version","name":"Text","timestamp":1721225052822}
+{"value":"Enable SSL validation","name":"Text","timestamp":1721225052822}
+{"value":"Enable cookie sending with jar of 1 cookie","name":"Text","timestamp":1721225052822}
+{"name":"Text","value":"Found bundle for host api-us.skyfii.com: 0x13c05bd4ec0 [can multiplex]\n","timestamp":1721225052823}
+{"name":"Text","value":"Re-using existing connection! (#3) with host api-us.skyfii.com\n","timestamp":1721225052823}
+{"name":"Text","value":"Connected to api-us.skyfii.com (50.18.54.205) port 443 (#3)\n","timestamp":1721225052823}
+{"name":"Text","value":"Using Stream ID: 3 (easy handle 0x13c0091c600)\n","timestamp":1721225052823}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1721225052823}
+{"name":"HeaderOut","value":"GET /v1/api/accounts/4000000721/entities/CountSensorElement HTTP/2\r\nHost: api-us.skyfii.com\r\ncookie: JSESSIONID=5CBC090DB3BF557188EC47B8068E26EF\r\nuser-agent: insomnia/9.3.2\r\nauthorization: Basic OVZHanF0VXdhdTVIcUZrRzpGbms2a0hYTUdpMTk2eVVzVjV4YXJzTWQ=\r\naccept: */*\r\n\r\n","timestamp":1721225052823}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721225053219}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"date: Wed, 17 Jul 2024 14:04:13 GMT\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"content-length: 2857\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"vary: Origin\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"vary: Access-Control-Request-Method\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"vary: Access-Control-Request-Headers\r\n","timestamp":1721225053220}
+{"name":"Text","value":"Replaced cookie JSESSIONID=\"54F13B7A703250A7D3A7A253BB913DC3\" for domain api-us.skyfii.com, path /, expire 0\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"set-cookie: JSESSIONID=54F13B7A703250A7D3A7A253BB913DC3; Path=/; Secure; HttpOnly\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"cache-control: no-cache, no-store, max-age=0, must-revalidate\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"pragma: no-cache\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"expires: 0\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=15724800; includeSubDomains\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"x-xss-protection: 1; mode=block\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"x-frame-options: DENY\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"x-content-type-options: nosniff\r\n","timestamp":1721225053220}
+{"name":"HeaderIn","value":"\r\n","timestamp":1721225053220}
+{"name":"Text","value":"Received 2.8 KB chunk","timestamp":1721225053220}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721225053220}
+{"name":"Text","value":"Connection #3 to host api-us.skyfii.com left intact\n","timestamp":1721225053220}
+{"value":"Saved 1 cookies","name":"Text","timestamp":1721225053223}

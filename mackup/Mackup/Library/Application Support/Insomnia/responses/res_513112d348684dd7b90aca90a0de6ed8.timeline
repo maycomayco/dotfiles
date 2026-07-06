@@ -1,0 +1,94 @@
+{"value":"Preparing request to https://api-us.skyfii.com/v1/api/accounts/4000000721/entityTypes","name":"Text","timestamp":1721224185804}
+{"value":"Current time is 2024-07-17T13:49:45.804Z","name":"Text","timestamp":1721224185804}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1721224185804}
+{"value":"Using default HTTP version","name":"Text","timestamp":1721224185806}
+{"value":"Enable SSL validation","name":"Text","timestamp":1721224185806}
+{"value":"Enable cookie sending with jar of 1 cookie","name":"Text","timestamp":1721224185806}
+{"name":"Text","value":"Too old connection (192 seconds), disconnect it\n","timestamp":1721224185806}
+{"name":"Text","value":"Connection 0 seems to be dead!\n","timestamp":1721224185806}
+{"name":"Text","value":"Closing connection 0\n","timestamp":1721224185806}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1721224185806}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS alert, decode error (562):\n","timestamp":1721224185806}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1721224185808}
+{"name":"Text","value":"  Trying 50.18.54.205:443...\n","timestamp":1721224186156}
+{"name":"Text","value":"Connected to api-us.skyfii.com (50.18.54.205) port 443 (#1)\n","timestamp":1721224186373}
+{"name":"Text","value":"ALPN, offering h2\n","timestamp":1721224186375}
+{"name":"Text","value":"ALPN, offering http/1.1\n","timestamp":1721224186375}
+{"name":"Text","value":" CAfile: /etc/ssl/cert.pem\n","timestamp":1721224186417}
+{"name":"Text","value":"TLSv1.0 (OUT), TLS header, Certificate Status (22):\n","timestamp":1721224186417}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Client hello (1):\n","timestamp":1721224186417}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Certificate Status (22):\n","timestamp":1721224186702}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Server hello (2):\n","timestamp":1721224186703}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Finished (20):\n","timestamp":1721224186703}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186703}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n","timestamp":1721224186703}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186703}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Certificate (11):\n","timestamp":1721224186703}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186706}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, CERT verify (15):\n","timestamp":1721224186706}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186707}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Finished (20):\n","timestamp":1721224186707}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Finished (20):\n","timestamp":1721224186707}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n","timestamp":1721224186707}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1721224186707}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Finished (20):\n","timestamp":1721224186707}
+{"name":"Text","value":"SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384\n","timestamp":1721224186707}
+{"name":"Text","value":"ALPN, server accepted to use h2\n","timestamp":1721224186707}
+{"name":"Text","value":"Server certificate:\n","timestamp":1721224186707}
+{"name":"Text","value":" subject: C=AU; ST=New South Wales; L=Potts Point; O=SKYFII LTD; CN=*.skyfii.com\n","timestamp":1721224186707}
+{"name":"Text","value":" start date: Jun 11 00:00:00 2024 GMT\n","timestamp":1721224186707}
+{"name":"Text","value":" expire date: Jul 12 23:59:59 2025 GMT\n","timestamp":1721224186707}
+{"name":"Text","value":" subjectAltName: host \"api-us.skyfii.com\" matched cert's \"*.skyfii.com\"\n","timestamp":1721224186707}
+{"name":"Text","value":" issuer: C=US; O=DigiCert Inc; CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1\n","timestamp":1721224186707}
+{"name":"Text","value":" SSL certificate verify ok.\n","timestamp":1721224186707}
+{"name":"Text","value":"Using HTTP2, server supports multiplexing\n","timestamp":1721224186707}
+{"name":"Text","value":"Connection state changed (HTTP/2 confirmed)\n","timestamp":1721224186707}
+{"name":"Text","value":"Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n","timestamp":1721224186707}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1721224186707}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1721224186707}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1721224186707}
+{"name":"Text","value":"Using Stream ID: 1 (easy handle 0x13c0091c600)\n","timestamp":1721224186707}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1721224186707}
+{"name":"HeaderOut","value":"GET /v1/api/accounts/4000000721/entityTypes HTTP/2\r\nHost: api-us.skyfii.com\r\ncookie: JSESSIONID=290B191AD8CDF09B40DBEDBA2D6DC2FD\r\nuser-agent: insomnia/9.3.2\r\nauthorization: Basic OVZHanF0VXdhdTVIcUZrRzpGbms2a0hYTUdpMTk2eVVzVjV4YXJzTWQ=\r\naccept: */*\r\n\r\n","timestamp":1721224186707}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186928}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1721224186928}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186928}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1721224186928}
+{"name":"Text","value":"old SSL session ID is stale, removing\n","timestamp":1721224186928}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186928}
+{"name":"Text","value":"Connection state changed (MAX_CONCURRENT_STREAMS == 128)!\n","timestamp":1721224186929}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1721224186929}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186929}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186968}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"date: Wed, 17 Jul 2024 13:49:47 GMT\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"content-length: 19202\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"vary: Origin\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"vary: Access-Control-Request-Method\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"vary: Access-Control-Request-Headers\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"cache-control: no-cache, no-store, max-age=0, must-revalidate\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"pragma: no-cache\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"expires: 0\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=15724800; includeSubDomains\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"x-xss-protection: 1; mode=block\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"x-frame-options: DENY\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"x-content-type-options: nosniff\r\n","timestamp":1721224186969}
+{"name":"HeaderIn","value":"\r\n","timestamp":1721224186969}
+{"name":"Text","value":"Received 3.6 KB chunk","timestamp":1721224186969}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186969}
+{"name":"Text","value":"Received 4 KB chunk","timestamp":1721224186971}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186971}
+{"name":"Text","value":"Received 9 B chunk","timestamp":1721224186971}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224186971}
+{"name":"Text","value":"Received 4 KB chunk","timestamp":1721224187142}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224187142}
+{"name":"Text","value":"Received 9 B chunk","timestamp":1721224187142}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224187142}
+{"name":"Text","value":"Received 4 KB chunk","timestamp":1721224187143}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224187143}
+{"name":"Text","value":"Received 9 B chunk","timestamp":1721224187143}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224187143}
+{"name":"Text","value":"Received 3.2 KB chunk","timestamp":1721224187183}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721224187183}
+{"name":"Text","value":"Connection #1 to host api-us.skyfii.com left intact\n","timestamp":1721224187183}

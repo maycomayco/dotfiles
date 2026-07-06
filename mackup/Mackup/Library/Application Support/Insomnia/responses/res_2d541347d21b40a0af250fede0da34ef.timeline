@@ -1,0 +1,88 @@
+{"value":"Preparing request to https://www.paulinacocina.net/wp-json/wp/v2/posts?slug=costillitas-de-cerdo-a-la-riojana&_embed","name":"Text","timestamp":1740757263235}
+{"value":"Current time is 2025-02-28T15:41:03.235Z","name":"Text","timestamp":1740757263235}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1740757263235}
+{"value":"Using default HTTP version","name":"Text","timestamp":1740757263235}
+{"value":"Enable SSL validation","name":"Text","timestamp":1740757263235}
+{"name":"Text","value":"Found bundle for host: 0x13404d966c0 [can multiplex]\n","timestamp":1740757263236}
+{"name":"Text","value":"Re-using existing connection #3 with host www.paulinacocina.net\n","timestamp":1740757263236}
+{"name":"Text","value":"Connected to www.paulinacocina.net (172.67.70.222) port 443 (#3)\n","timestamp":1740757263236}
+{"name":"Text","value":"h2h3 [:method: GET]\n","timestamp":1740757263236}
+{"name":"Text","value":"h2h3 [:path: /wp-json/wp/v2/posts?slug=costillitas-de-cerdo-a-la-riojana&_embed]\n","timestamp":1740757263236}
+{"name":"Text","value":"h2h3 [:scheme: https]\n","timestamp":1740757263236}
+{"name":"Text","value":"h2h3 [:authority: www.paulinacocina.net]\n","timestamp":1740757263236}
+{"name":"Text","value":"h2h3 [user-agent: insomnia/10.3.1]\n","timestamp":1740757263236}
+{"name":"Text","value":"h2h3 [accept: */*]\n","timestamp":1740757263236}
+{"name":"Text","value":"Using Stream ID: 3 (easy handle 0x134009c4a00)\n","timestamp":1740757263236}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1740757263236}
+{"name":"HeaderOut","value":"GET /wp-json/wp/v2/posts?slug=costillitas-de-cerdo-a-la-riojana&_embed HTTP/2\r\nHost: www.paulinacocina.net\r\nuser-agent: insomnia/10.3.1\r\naccept: */*\r\n\r\n","timestamp":1740757263236}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263825}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"date: Fri, 28 Feb 2025 15:41:03 GMT\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"content-type: application/json; charset=UTF-8\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"cf-ray: 919184404f3a8758-MIA\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"cf-cache-status: MISS\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"allow: GET\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"cache-control: max-age=2678400\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"last-modified: Fri, 28 Feb 2025 15:41:03 GMT\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"link: <https://www.paulinacocina.net/wp-json/>; rel=\"https://api.w.org/\"\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"vary: Accept-Encoding,Origin\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"via: 1.1 google\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"access-control-allow-headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"access-control-expose-headers: X-WP-Total, X-WP-TotalPages, Link\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"alt-svc: h3=\":443\"; ma=86400\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"cf-apo-via: origin,nohtml\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"cf-edge-cache: cache,platform=wordpress\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"paulina-cache-engine: true\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"referrer-policy: strict-origin-when-cross-origin\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"x-content-type-options: nosniff\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"x-frame-options: SAMEORIGIN\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"x-robots-tag: noindex\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"x-srcache-fetch-status: BYPASS\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"x-srcache-store-status: BYPASS\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"x-wp-total: 1\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"x-wp-totalpages: 1\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"report-to: {\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v4?s=7o8Zb4r%2Bm3TMAGzy%2FXufBrJ6orHXPKcrVV4x3MQt1qkQRYtMmV6ZLJywt0bjmo92i%2Bdz%2B%2FsQA3SRdOD9PG0FX9Bqw0lQTSKJqX1TMVfM30U19AUseF39ewo%2BdU8Q5abwnA5XKXJKVQ%3D%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"nel: {\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"server: cloudflare\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"server-timing: cfL4;desc=\"?proto=TCP&rtt=155502&min_rtt=149376&rtt_var=16510&sent=22&recv=20&lost=0&retrans=0&sent_bytes=21143&recv_bytes=964&delivery_rate=103755&cwnd=251&unsent_bytes=0&cid=77c2275df5b3848e&ts=55296&x=0\"\r\n","timestamp":1740757263826}
+{"name":"HeaderIn","value":"\r\n","timestamp":1740757263826}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263826}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1740757263826}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263826}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263826}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263826}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263826}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263827}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263827}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263827}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263827}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263827}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1740757263827}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263827}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263827}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263827}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263827}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263827}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263827}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263827}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263827}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263827}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263827}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263827}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1740757263827}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263827}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263827}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263827}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263829}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263829}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263829}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263829}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263829}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263829}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1740757263829}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263829}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1740757263830}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263830}
+{"name":"Text","value":"Received 335 B chunk","timestamp":1740757263830}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1740757263830}
+{"name":"Text","value":"Connection #3 to host www.paulinacocina.net left intact\n","timestamp":1740757263830}

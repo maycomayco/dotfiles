@@ -1,0 +1,132 @@
+[
+	{
+		"value": "Preparing request to http://localhost:8000/api/users/logout",
+		"name": "Text",
+		"timestamp": 1702409592270
+	},
+	{
+		"value": "Current time is 2023-12-12T19:33:12.270Z",
+		"name": "Text",
+		"timestamp": 1702409592270
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1702409592270
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1702409592271
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1702409592271
+	},
+	{
+		"value": "Enable cookie sending with jar of 1 cookie",
+		"name": "Text",
+		"timestamp": 1702409592271
+	},
+	{
+		"name": "Text",
+		"value": "Connection 36 seems to be dead!\n",
+		"timestamp": 1702409592271
+	},
+	{
+		"name": "Text",
+		"value": "Closing connection 36\n",
+		"timestamp": 1702409592271
+	},
+	{
+		"name": "Text",
+		"value": "Hostname localhost was found in DNS cache\n",
+		"timestamp": 1702409592271
+	},
+	{
+		"name": "Text",
+		"value": "  Trying 127.0.0.1:8000...\n",
+		"timestamp": 1702409592271
+	},
+	{
+		"name": "Text",
+		"value": "Connected to localhost (127.0.0.1) port 8000 (#37)\n",
+		"timestamp": 1702409592271
+	},
+	{
+		"name": "HeaderOut",
+		"value": "POST /api/users/logout HTTP/1.1\r\nHost: localhost:8000\r\nCookie: jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NTc4OTM5YmYyYmVjNTJlNjk2YTg5MDgiLCJpYXQiOjE3MDI0MDkzODksImV4cCI6MTcwNTAwMTM4OX0.XEQ5jJmxGbRxDbRm0uBd5ug6pryS-uvz__5iWfEr6I0\r\nUser-Agent: insomnia/2023.5.8\r\nAccept: */*\r\nContent-Length: 0\r\n\r\n",
+		"timestamp": 1702409592271
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 200 OK\r\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "HeaderIn",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "Text",
+		"value": "Replaced cookie jwt=\"\" for domain localhost, path /, expire 1\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Set-Cookie: jwt=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; HttpOnly\r\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Length: 29\r\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "HeaderIn",
+		"value": "ETag: W/\"1d-K3gZ1APDm69n04OkdSHCmP0j1Qw\"\r\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Date: Tue, 12 Dec 2023 19:33:12 GMT\r\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "Text",
+		"value": "Received 29 B chunk",
+		"timestamp": 1702409592274
+	},
+	{
+		"name": "Text",
+		"value": "Connection #37 to host localhost left intact\n",
+		"timestamp": 1702409592274
+	}
+]

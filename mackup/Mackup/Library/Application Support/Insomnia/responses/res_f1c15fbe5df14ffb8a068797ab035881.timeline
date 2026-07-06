@@ -1,0 +1,22 @@
+{"value":"Preparing request to http://localhost:3000/api/revalidate","name":"Text","timestamp":1724961832239}
+{"value":"Current time is 2024-08-29T20:03:52.239Z","name":"Text","timestamp":1724961832239}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1724961832239}
+{"value":"Using default HTTP version","name":"Text","timestamp":1724961832240}
+{"value":"Enable SSL validation","name":"Text","timestamp":1724961832240}
+{"value":"Enable cookie sending with jar of 2 cookies","name":"Text","timestamp":1724961832240}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1724961832240}
+{"name":"Text","value":"  Trying 127.0.0.1:3000...\n","timestamp":1724961832240}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 3000 (#47)\n","timestamp":1724961832240}
+{"name":"HeaderOut","value":"POST /api/revalidate HTTP/1.1\r\nHost: localhost:3000\r\nContent-Type: application/json\r\nUser-Agent: insomnia/9.3.2\r\nx-client-id: 00000001\r\nAccept: */*\r\nContent-Length: 88\r\n\r\n","timestamp":1724961832240}
+{"name":"DataOut","value":"[\n\t{\n\t\"skyfiiId\":\"00001\",\n\t\"name\":\"Juan\"\n\t},\n\t{\n\t\"skyfiiId\":\"00002\",\n\t\"name\":\"pedro\"\n}\n]","timestamp":1724961832240}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1724961832627}
+{"name":"HeaderIn","value":"HTTP/1.1 401 Unauthorized\r\n","timestamp":1724961832627}
+{"name":"HeaderIn","value":"vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch\r\n","timestamp":1724961832627}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1724961832627}
+{"name":"HeaderIn","value":"Date: Thu, 29 Aug 2024 20:03:52 GMT\r\n","timestamp":1724961832627}
+{"name":"HeaderIn","value":"Connection: keep-alive\r\n","timestamp":1724961832627}
+{"name":"HeaderIn","value":"Keep-Alive: timeout=5\r\n","timestamp":1724961832627}
+{"name":"HeaderIn","value":"Transfer-Encoding: chunked\r\n","timestamp":1724961832627}
+{"name":"HeaderIn","value":"\r\n","timestamp":1724961832627}
+{"name":"Text","value":"Received 30 B chunk","timestamp":1724961832628}
+{"name":"Text","value":"Connection #47 to host localhost left intact\n","timestamp":1724961832628}

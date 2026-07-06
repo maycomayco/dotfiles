@@ -1,0 +1,20 @@
+{"value":"Preparing request to http://localhost:3001/api/v1/newbalance","name":"Text","timestamp":1776966454163}
+{"value":"Current time is 2026-04-23T17:47:34.163Z","name":"Text","timestamp":1776966454163}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1776966454163}
+{"value":"Using default HTTP version","name":"Text","timestamp":1776966454164}
+{"value":"Enable SSL validation","name":"Text","timestamp":1776966454164}
+{"name":"Text","value":"  Trying 127.0.0.1:3001...\n","timestamp":1776966454165}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 3001 (#8)\n","timestamp":1776966454165}
+{"name":"HeaderOut","value":"GET /api/v1/newbalance HTTP/1.1\r\nHost: localhost:3001\r\nUser-Agent: insomnia/11.6.1\r\nAccept: */*\r\n\r\n","timestamp":1776966454165}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1776966454638}
+{"name":"HeaderIn","value":"HTTP/1.1 200 OK\r\n","timestamp":1776966454638}
+{"name":"HeaderIn","value":"X-Powered-By: Express\r\n","timestamp":1776966454638}
+{"name":"HeaderIn","value":"Content-Type: application/json; charset=utf-8\r\n","timestamp":1776966454638}
+{"name":"HeaderIn","value":"Content-Length: 24\r\n","timestamp":1776966454638}
+{"name":"HeaderIn","value":"ETag: W/\"18-io+YwShJfk2KaRC/1b0Huj4aGJ8\"\r\n","timestamp":1776966454638}
+{"name":"HeaderIn","value":"Date: Thu, 23 Apr 2026 17:47:34 GMT\r\n","timestamp":1776966454638}
+{"name":"HeaderIn","value":"Connection: keep-alive\r\n","timestamp":1776966454638}
+{"name":"HeaderIn","value":"Keep-Alive: timeout=5\r\n","timestamp":1776966454639}
+{"name":"HeaderIn","value":"\r\n","timestamp":1776966454639}
+{"name":"Text","value":"Received 24 B chunk","timestamp":1776966454639}
+{"name":"Text","value":"Connection #8 to host localhost left intact\n","timestamp":1776966454639}

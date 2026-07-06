@@ -1,0 +1,79 @@
+{"value":"Preparing request to https://a.klaviyo.com/api/profiles/01J85VQ2YH3QGEPWGAWM7VWWC3/?additional-fields%5Bprofile%5D=subscriptions","name":"Text","timestamp":1727208316768}
+{"value":"Current time is 2024-09-24T20:05:16.768Z","name":"Text","timestamp":1727208316768}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1727208316768}
+{"value":"Using default HTTP version","name":"Text","timestamp":1727208316770}
+{"value":"Enable SSL validation","name":"Text","timestamp":1727208316770}
+{"name":"Text","value":"Too old connection (3657 seconds), disconnect it\n","timestamp":1727208316771}
+{"name":"Text","value":"Connection 137 seems to be dead!\n","timestamp":1727208316771}
+{"name":"Text","value":"Closing connection 137\n","timestamp":1727208316771}
+{"name":"Text","value":"  Trying 2606:4700:4400::6812:2889:443...\n","timestamp":1727208316924}
+{"name":"Text","value":"Connected to a.klaviyo.com (2606:4700:4400::6812:2889) port 443 (#138)\n","timestamp":1727208316944}
+{"name":"Text","value":"ALPN, offering h2\n","timestamp":1727208316953}
+{"name":"Text","value":"ALPN, offering http/1.1\n","timestamp":1727208316953}
+{"name":"Text","value":" CAfile: /etc/ssl/cert.pem\n","timestamp":1727208316983}
+{"name":"Text","value":"TLSv1.0 (OUT), TLS header, Certificate Status (22):\n","timestamp":1727208316984}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Client hello (1):\n","timestamp":1727208316984}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Certificate Status (22):\n","timestamp":1727208317005}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Server hello (2):\n","timestamp":1727208317005}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Finished (20):\n","timestamp":1727208317006}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1727208317006}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):\n","timestamp":1727208317006}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Certificate (11):\n","timestamp":1727208317006}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, CERT verify (15):\n","timestamp":1727208317009}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Finished (20):\n","timestamp":1727208317009}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Finished (20):\n","timestamp":1727208317009}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):\n","timestamp":1727208317009}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1727208317009}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Finished (20):\n","timestamp":1727208317009}
+{"name":"Text","value":"SSL connection using TLSv1.3 / TLS_AES_256_GCM_SHA384\n","timestamp":1727208317009}
+{"name":"Text","value":"ALPN, server accepted to use h2\n","timestamp":1727208317009}
+{"name":"Text","value":"Server certificate:\n","timestamp":1727208317009}
+{"name":"Text","value":" subject: CN=a.klaviyo.com\n","timestamp":1727208317009}
+{"name":"Text","value":" start date: Sep 19 06:45:12 2024 GMT\n","timestamp":1727208317009}
+{"name":"Text","value":" expire date: Dec 18 06:45:11 2024 GMT\n","timestamp":1727208317009}
+{"name":"Text","value":" subjectAltName: host \"a.klaviyo.com\" matched cert's \"a.klaviyo.com\"\n","timestamp":1727208317009}
+{"name":"Text","value":" issuer: C=US; O=Google Trust Services; CN=WE1\n","timestamp":1727208317009}
+{"name":"Text","value":" SSL certificate verify ok.\n","timestamp":1727208317009}
+{"name":"Text","value":"Using HTTP2, server supports multiplexing\n","timestamp":1727208317010}
+{"name":"Text","value":"Connection state changed (HTTP/2 confirmed)\n","timestamp":1727208317010}
+{"name":"Text","value":"Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n","timestamp":1727208317010}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1727208317010}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1727208317010}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1727208317010}
+{"name":"Text","value":"Using Stream ID: 1 (easy handle 0x140008c4a00)\n","timestamp":1727208317010}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1727208317010}
+{"name":"HeaderOut","value":"GET /api/profiles/01J85VQ2YH3QGEPWGAWM7VWWC3/?additional-fields%5Bprofile%5D=subscriptions HTTP/2\r\nHost: a.klaviyo.com\r\nauthorization: Klaviyo-API-Key pk_c111d787188b438a73d21bf6b9368b5e00\r\naccept: application/json\r\nrevision: 2024-06-15\r\n\r\n","timestamp":1727208317010}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1727208317026}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1727208317026}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Newsession Ticket (4):\n","timestamp":1727208317026}
+{"name":"Text","value":"old SSL session ID is stale, removing\n","timestamp":1727208317026}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1727208317026}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1727208317026}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1727208317042}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"date: Tue, 24 Sep 2024 20:05:17 GMT\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"content-type: application/vnd.api+json\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"content-length: 2166\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"cf-ray: 8c85636e7e9eba6b-EZE\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"cf-cache-status: DYNAMIC\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"allow: GET, PUT, PATCH, DELETE, HEAD, OPTIONS\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"content-language: en-us\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=31536000; includeSubDomains; preload\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"vary: Accept-Language, Cookie\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"cid: XAchq5\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"content-security-policy: base-uri 'none'; script-src 'report-sample' 'strict-dynamic' 'unsafe-eval'; object-src 'none'; frame-ancestors 'self' login.bigcommerce.com *.mybigcommerce.com admin.shopify.com klaviyo.file.force.com klaviyo.lightning.force.com klaviyo.my.salesforce.com; report-uri /csp/\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"ratelimit-limit: 75, 75;w=1, 700;w=60\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"ratelimit-remaining: 74\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"ratelimit-reset: 0\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"x-content-type-options: nosniff\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"x-klaviyo-api-revision: 2024-06-15\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"x-robots-tag: noindex, nofollow\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"server: cloudflare\r\n","timestamp":1727208317250}
+{"name":"HeaderIn","value":"\r\n","timestamp":1727208317250}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1727208317250}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1727208317274}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1727208317274}
+{"name":"Text","value":"Received 806 B chunk","timestamp":1727208317274}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1727208317274}
+{"name":"Text","value":"Connection #138 to host a.klaviyo.com left intact\n","timestamp":1727208317274}

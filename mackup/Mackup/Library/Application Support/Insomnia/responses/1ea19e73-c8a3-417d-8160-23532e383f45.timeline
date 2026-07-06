@@ -1,0 +1,117 @@
+[
+	{
+		"value": "Preparing request to http://localhost:8000/api/users/profile",
+		"name": "Text",
+		"timestamp": 1702410132751
+	},
+	{
+		"value": "Current time is 2023-12-12T19:42:12.751Z",
+		"name": "Text",
+		"timestamp": 1702410132751
+	},
+	{
+		"value": "Enable automatic URL encoding",
+		"name": "Text",
+		"timestamp": 1702410132751
+	},
+	{
+		"value": "Using default HTTP version",
+		"name": "Text",
+		"timestamp": 1702410132752
+	},
+	{
+		"value": "Enable SSL validation",
+		"name": "Text",
+		"timestamp": 1702410132752
+	},
+	{
+		"value": "Enable cookie sending with jar of 1 cookie",
+		"name": "Text",
+		"timestamp": 1702410132752
+	},
+	{
+		"name": "Text",
+		"value": "Found bundle for host localhost: 0x165dc6860 [serially]\n",
+		"timestamp": 1702410132752
+	},
+	{
+		"name": "Text",
+		"value": "Can not multiplex, even if we wanted to!\n",
+		"timestamp": 1702410132752
+	},
+	{
+		"name": "Text",
+		"value": "Re-using existing connection! (#44) with host localhost\n",
+		"timestamp": 1702410132752
+	},
+	{
+		"name": "Text",
+		"value": "Connected to localhost (127.0.0.1) port 8000 (#44)\n",
+		"timestamp": 1702410132752
+	},
+	{
+		"name": "HeaderOut",
+		"value": "GET /api/users/profile HTTP/1.1\r\nHost: localhost:8000\r\nCookie: jwt=\r\nUser-Agent: insomnia/2023.5.8\r\nAccept: */*\r\n\r\n",
+		"timestamp": 1702410132752
+	},
+	{
+		"name": "Text",
+		"value": "Mark bundle as not supporting multiuse\n",
+		"timestamp": 1702410132755
+	},
+	{
+		"name": "HeaderIn",
+		"value": "HTTP/1.1 401 Unauthorized\r\n",
+		"timestamp": 1702410132755
+	},
+	{
+		"name": "HeaderIn",
+		"value": "X-Powered-By: Express\r\n",
+		"timestamp": 1702410132755
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Type: application/json; charset=utf-8\r\n",
+		"timestamp": 1702410132755
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Content-Length: 1387\r\n",
+		"timestamp": 1702410132755
+	},
+	{
+		"name": "HeaderIn",
+		"value": "ETag: W/\"56b-V2PmdPVjYVhatzOI/Te42yu4HOQ\"\r\n",
+		"timestamp": 1702410132755
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Date: Tue, 12 Dec 2023 19:42:12 GMT\r\n",
+		"timestamp": 1702410132755
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Connection: keep-alive\r\n",
+		"timestamp": 1702410132755
+	},
+	{
+		"name": "HeaderIn",
+		"value": "Keep-Alive: timeout=5\r\n",
+		"timestamp": 1702410132755
+	},
+	{
+		"name": "HeaderIn",
+		"value": "\r\n",
+		"timestamp": 1702410132755
+	},
+	{
+		"name": "Text",
+		"value": "Received 1387 B chunk",
+		"timestamp": 1702410132755
+	},
+	{
+		"name": "Text",
+		"value": "Connection #44 to host localhost left intact\n",
+		"timestamp": 1702410132755
+	}
+]

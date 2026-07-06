@@ -1,0 +1,37 @@
+{"value":"Preparing request to https://www.worldsprings.com/api/map","name":"Text","timestamp":1725386466989}
+{"value":"Current time is 2024-09-03T18:01:06.989Z","name":"Text","timestamp":1725386466989}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1725386466989}
+{"value":"Using default HTTP version","name":"Text","timestamp":1725386466990}
+{"value":"Enable SSL validation","name":"Text","timestamp":1725386466990}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725386466990}
+{"name":"Text","value":"9 bytes stray data read before trying h2 connection\n","timestamp":1725386466990}
+{"name":"Text","value":"Found bundle for host www.worldsprings.com: 0x14005a678c0 [can multiplex]\n","timestamp":1725386466990}
+{"name":"Text","value":"Re-using existing connection! (#17) with host www.worldsprings.com\n","timestamp":1725386466990}
+{"name":"Text","value":"Connected to www.worldsprings.com (172.67.41.24) port 443 (#17)\n","timestamp":1725386466990}
+{"name":"Text","value":"Using Stream ID: f (easy handle 0x140008bc600)\n","timestamp":1725386466990}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1725386466990}
+{"name":"HeaderOut","value":"GET /api/map HTTP/2\r\nHost: www.worldsprings.com\r\nuser-agent: insomnia/9.3.2\r\naccept: */*\r\n\r\n","timestamp":1725386466990}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"HTTP/2 404 \r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"date: Tue, 03 Sep 2024 18:01:07 GMT\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"content-type: text/plain;charset=UTF-8\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"content-length: 20\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"accept-ranges: bytes\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"access-control-allow-origin: *\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"age: 1055\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"cache-control: public, max-age=0, must-revalidate\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"content-disposition: inline\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"etag: \"ba63e84e7e6c3fd25b7d00bda5f98adb\"\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=63072000\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"x-matched-path: /api/map\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"x-vercel-cache: HIT\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"x-vercel-id: gru1::tt5vx-1725386467071-6fbda65a5306\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"cf-cache-status: DYNAMIC\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"server: cloudflare\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"cf-ray: 8bd7a4ab0be41ea0-EZE\r\n","timestamp":1725386467062}
+{"name":"HeaderIn","value":"\r\n","timestamp":1725386467062}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725386467062}
+{"name":"Text","value":"Received 20 B chunk","timestamp":1725386467062}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725386467062}
+{"name":"Text","value":"Connection #17 to host www.worldsprings.com left intact\n","timestamp":1725386467062}

@@ -1,0 +1,25 @@
+{
+  "author": "acct_2834e789835149108793002966326cf2",
+  "authorAccount": {
+    "email": "maycobarale@gmail.com",
+    "firstName": "Mayco",
+    "lastName": "Barale"
+  },
+  "created": "2026-04-23T17:41:02.612Z",
+  "description": "",
+  "id": "3c954838ebb3b3258cf1f23197f3fa967c6cbde1",
+  "name": "Initial Snapshot",
+  "parent": "0000000000000000000000000000000000000000",
+  "state": [
+    {
+      "blob": "c98fd2bd411d60d7791700c1309a283fff800577",
+      "key": "env_875294bce3cc52505c61ce82d29a166e10a4a82f",
+      "name": "Base Environment"
+    },
+    {
+      "blob": "7334417d129aef2dac77cc5ec706ddd2ee653ee9",
+      "key": "wrk_730eaddd0df64a7db07d24e767b30ba5",
+      "name": "webscraper-api"
+    }
+  ]
+}

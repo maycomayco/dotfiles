@@ -1,0 +1,7 @@
+{"value":"Preparing request to http://locahost:3000/health","name":"Text","timestamp":1783187277588}
+{"value":"Current time is 2026-07-04T17:47:57.588Z","name":"Text","timestamp":1783187277588}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1783187277588}
+{"value":"Using default HTTP version","name":"Text","timestamp":1783187277591}
+{"value":"Enable SSL validation","name":"Text","timestamp":1783187277591}
+{"name":"Text","value":"Could not resolve host: locahost\n","timestamp":1783187277607}
+{"name":"Text","value":"Closing connection 3\n","timestamp":1783187277607}

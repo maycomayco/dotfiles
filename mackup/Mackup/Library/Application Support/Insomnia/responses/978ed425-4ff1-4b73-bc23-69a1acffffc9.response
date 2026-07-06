@@ -1,0 +1,1 @@
+{"message":"Invalid email or password","stack":"Error: Invalid email or password\n    at file:///Users/mayco/dev/mern-auth/backend/controllers/userController.js:24:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}

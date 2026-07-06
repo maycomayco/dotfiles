@@ -1,0 +1,38 @@
+{"value":"Preparing request to http://localhost:3001/api/v1/newbalance","name":"Text","timestamp":1781039027146}
+{"value":"Current time is 2026-06-09T21:03:47.146Z","name":"Text","timestamp":1781039027146}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1781039027146}
+{"value":"Using default HTTP version","name":"Text","timestamp":1781039027151}
+{"value":"Enable SSL validation","name":"Text","timestamp":1781039027151}
+{"name":"Text","value":"Too old connection (156313 seconds idle), disconnect it\n","timestamp":1781039027154}
+{"name":"Text","value":"Connection 0 seems to be dead\n","timestamp":1781039027154}
+{"name":"Text","value":"Closing connection 0\n","timestamp":1781039027157}
+{"name":"Text","value":"  Trying 127.0.0.1:3001...\n","timestamp":1781039027181}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 3001 (#6)\n","timestamp":1781039027181}
+{"name":"HeaderOut","value":"GET /api/v1/newbalance HTTP/1.1\r\nHost: localhost:3001\r\nUser-Agent: insomnia/11.6.1\r\nAccept: */*\r\n\r\n","timestamp":1781039027181}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"HTTP/1.1 200 OK\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"Cross-Origin-Opener-Policy: same-origin\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"Cross-Origin-Resource-Policy: same-origin\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"Origin-Agent-Cluster: ?1\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"Referrer-Policy: no-referrer\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"Strict-Transport-Security: max-age=31536000; includeSubDomains\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"X-Content-Type-Options: nosniff\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"X-DNS-Prefetch-Control: off\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"X-Download-Options: noopen\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"X-Frame-Options: SAMEORIGIN\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"X-Permitted-Cross-Domain-Policies: none\r\n","timestamp":1781039027775}
+{"name":"HeaderIn","value":"X-XSS-Protection: 0\r\n","timestamp":1781039027776}
+{"name":"HeaderIn","value":"RateLimit-Policy: 30;w=60\r\n","timestamp":1781039027776}
+{"name":"HeaderIn","value":"RateLimit-Limit: 30\r\n","timestamp":1781039027776}
+{"name":"HeaderIn","value":"RateLimit-Remaining: 29\r\n","timestamp":1781039027776}
+{"name":"HeaderIn","value":"RateLimit-Reset: 60\r\n","timestamp":1781039027776}
+{"name":"HeaderIn","value":"Content-Type: application/json; charset=utf-8\r\n","timestamp":1781039027776}
+{"name":"HeaderIn","value":"Content-Length: 2247\r\n","timestamp":1781039027776}
+{"name":"HeaderIn","value":"ETag: W/\"8c7-qrBeZDtF6zv09hB1Apo+Tysa174\"\r\n","timestamp":1781039027776}
+{"name":"HeaderIn","value":"Date: Tue, 09 Jun 2026 21:03:47 GMT\r\n","timestamp":1781039027776}
+{"name":"HeaderIn","value":"Connection: keep-alive\r\n","timestamp":1781039027776}
+{"name":"HeaderIn","value":"Keep-Alive: timeout=5\r\n","timestamp":1781039027776}
+{"name":"HeaderIn","value":"\r\n","timestamp":1781039027776}
+{"name":"Text","value":"Received 2.2 KB chunk","timestamp":1781039027777}
+{"name":"Text","value":"Connection #6 to host localhost left intact\n","timestamp":1781039027777}

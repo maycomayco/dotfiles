@@ -1,0 +1,1 @@
+{"error":"Validation failed","details":[{"expected":"string","code":"invalid_type","path":["category"],"message":"Invalid input: expected string, received undefined"}]}

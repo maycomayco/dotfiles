@@ -1,0 +1,29 @@
+{"value":"Preparing request to https://swapi.dev/api/films","name":"Text","timestamp":1721391588330}
+{"value":"Current time is 2024-07-19T12:19:48.330Z","name":"Text","timestamp":1721391588330}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1721391588330}
+{"value":"Using default HTTP version","name":"Text","timestamp":1721391588331}
+{"value":"Enable SSL validation","name":"Text","timestamp":1721391588331}
+{"name":"Text","value":"Found bundle for host swapi.dev: 0x13c066fbe40 [can multiplex]\n","timestamp":1721391588331}
+{"name":"Text","value":"Re-using existing connection! (#10) with host swapi.dev\n","timestamp":1721391588331}
+{"name":"Text","value":"Connected to swapi.dev (52.58.110.120) port 443 (#10)\n","timestamp":1721391588331}
+{"name":"Text","value":"Using Stream ID: 3 (easy handle 0x13c0091c600)\n","timestamp":1721391588331}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1721391588331}
+{"name":"HeaderOut","value":"GET /api/films HTTP/2\r\nHost: swapi.dev\r\nuser-agent: insomnia/9.3.2\r\naccept: */*\r\n\r\n","timestamp":1721391588331}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721391588919}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1721391588919}
+{"name":"HeaderIn","value":"server: nginx/1.16.1\r\n","timestamp":1721391588919}
+{"name":"HeaderIn","value":"date: Fri, 19 Jul 2024 12:19:48 GMT\r\n","timestamp":1721391588919}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1721391588919}
+{"name":"HeaderIn","value":"vary: Accept, Cookie\r\n","timestamp":1721391588919}
+{"name":"HeaderIn","value":"x-frame-options: SAMEORIGIN\r\n","timestamp":1721391588919}
+{"name":"HeaderIn","value":"etag: \"73dffe18f022f65acc88f914f65f2922\"\r\n","timestamp":1721391588919}
+{"name":"HeaderIn","value":"allow: GET, HEAD, OPTIONS\r\n","timestamp":1721391588919}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=15768000\r\n","timestamp":1721391588919}
+{"name":"HeaderIn","value":"\r\n","timestamp":1721391588919}
+{"name":"Text","value":"Received 7.8 KB chunk","timestamp":1721391588920}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721391588920}
+{"name":"Text","value":"Received 8 KB chunk","timestamp":1721391589178}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721391589178}
+{"name":"Text","value":"Received 2.4 KB chunk","timestamp":1721391589178}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1721391589178}
+{"name":"Text","value":"Connection #10 to host swapi.dev left intact\n","timestamp":1721391589178}

@@ -1,0 +1,39 @@
+{"value":"Preparing request to https://a.klaviyo.com/api/profiles","name":"Text","timestamp":1719861652581}
+{"value":"Current time is 2024-07-01T19:20:52.581Z","name":"Text","timestamp":1719861652581}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1719861652581}
+{"value":"Using default HTTP version","name":"Text","timestamp":1719861652581}
+{"value":"Enable SSL validation","name":"Text","timestamp":1719861652581}
+{"name":"Text","value":"Found bundle for host a.klaviyo.com: 0x1080574eec0 [can multiplex]\n","timestamp":1719861652582}
+{"name":"Text","value":"Re-using existing connection! (#0) with host a.klaviyo.com\n","timestamp":1719861652582}
+{"name":"Text","value":"Connected to a.klaviyo.com (2606:4700::6812:df0) port 443 (#0)\n","timestamp":1719861652582}
+{"name":"Text","value":"Using Stream ID: 3 (easy handle 0x108008c8400)\n","timestamp":1719861652582}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1719861652582}
+{"name":"HeaderOut","value":"POST /api/profiles HTTP/2\r\nHost: a.klaviyo.com\r\nuser-agent: insomnia/9.3.1\r\ncontent-type: application/json\r\nauthorization: Klaviyo-API-Key pk_c111d787188b438a73d21bf6b9368b5e00\r\naccept: application/json\r\nrevision: 2024-06-15\r\ncontent-length: 101\r\n\r\n","timestamp":1719861652582}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1719861652582}
+{"name":"DataOut","value":"{\n  \"data\": {\n    \"type\": \"profile\",\n    \"attributes\": {\n      \"email\": \"mayco@valid.com\"\n    }\n  }\n}","timestamp":1719861652582}
+{"name":"Text","value":"We are completely uploaded and fine\n","timestamp":1719861652582}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"HTTP/2 409 \r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"date: Mon, 01 Jul 2024 19:20:52 GMT\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"content-type: application/vnd.api+json\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"content-length: 297\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"cf-ray: 89c8c180ed1cc19e-EZE\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"cf-cache-status: DYNAMIC\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"allow: GET, POST, HEAD, OPTIONS\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"content-language: en-us\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"strict-transport-security: max-age=31536000; includeSubDomains; preload\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"vary: Accept-Language, Cookie\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"cid: XAchq5\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"content-security-policy: script-src 'report-sample' 'strict-dynamic' 'unsafe-eval' https://cdn.ampproject.org/; object-src 'none'; base-uri 'none'; frame-ancestors 'self' login.bigcommerce.com *.mybigcommerce.com admin.shopify.com klaviyo.file.force.com klaviyo.lightning.force.com klaviyo.my.salesforce.com; report-uri /csp/\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"ratelimit-limit: 75, 75;w=1, 700;w=60\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"ratelimit-remaining: 74\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"ratelimit-reset: 0\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"x-content-type-options: nosniff\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"x-klaviyo-api-revision: 2024-06-15\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"x-robots-tag: noindex, nofollow\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"server: cloudflare\r\n","timestamp":1719861652905}
+{"name":"HeaderIn","value":"\r\n","timestamp":1719861652905}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1719861652905}
+{"name":"Text","value":"Received 297 B chunk","timestamp":1719861652905}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1719861652906}
+{"name":"Text","value":"Connection #0 to host a.klaviyo.com left intact\n","timestamp":1719861652906}

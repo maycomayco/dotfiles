@@ -1,0 +1,13 @@
+{"value":"Preparing request to http://localhost:3000/api/v1/hierro","name":"Text","timestamp":1776966098723}
+{"value":"Current time is 2026-04-23T17:41:38.723Z","name":"Text","timestamp":1776966098723}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1776966098723}
+{"value":"Using default HTTP version","name":"Text","timestamp":1776966098723}
+{"value":"Enable SSL validation","name":"Text","timestamp":1776966098723}
+{"name":"Text","value":"Connection 1 seems to be dead\n","timestamp":1776966098723}
+{"name":"Text","value":"Closing connection 1\n","timestamp":1776966098723}
+{"name":"Text","value":"  Trying 127.0.0.1:3000...\n","timestamp":1776966098724}
+{"name":"Text","value":"connect to 127.0.0.1 port 3000 failed: Connection refused\n","timestamp":1776966098724}
+{"name":"Text","value":"  Trying [::1]:3000...\n","timestamp":1776966098724}
+{"name":"Text","value":"connect to ::1 port 3000 failed: Connection refused\n","timestamp":1776966098724}
+{"name":"Text","value":"Failed to connect to localhost port 3000 after 0 ms: Couldn't connect to server\n","timestamp":1776966098724}
+{"name":"Text","value":"Closing connection 2\n","timestamp":1776966098724}

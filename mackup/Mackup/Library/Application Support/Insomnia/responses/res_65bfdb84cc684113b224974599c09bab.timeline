@@ -1,0 +1,25 @@
+{"value":"Preparing request to http://localhost:3000/api/beonic","name":"Text","timestamp":1727706364810}
+{"value":"Current time is 2024-09-30T14:26:04.810Z","name":"Text","timestamp":1727706364810}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1727706364810}
+{"value":"Using default HTTP version","name":"Text","timestamp":1727706364813}
+{"value":"Enable SSL validation","name":"Text","timestamp":1727706364813}
+{"value":"Enable cookie sending with jar of 2 cookies","name":"Text","timestamp":1727706364813}
+{"name":"Text","value":"Too old connection (236495 seconds), disconnect it\n","timestamp":1727706364813}
+{"name":"Text","value":"Connection 23 seems to be dead!\n","timestamp":1727706364813}
+{"name":"Text","value":"Closing connection 23\n","timestamp":1727706364813}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1727706364813}
+{"name":"Text","value":"  Trying 127.0.0.1:3000...\n","timestamp":1727706364813}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 3000 (#24)\n","timestamp":1727706364814}
+{"name":"HeaderOut","value":"POST /api/beonic HTTP/1.1\r\nHost: localhost:3000\r\nContent-Type: application/json\r\nUser-Agent: insomnia/9.3.2\r\nx-client-id: 00000001\r\nAccept: */*\r\nContent-Length: 1108\r\n\r\n","timestamp":1727706364814}
+{"name":"DataOut","value":"[\n{\n  \"networkId\": 4000000774,\n  \"name\": \"Susan\",\n  \"postcode\": \"75072\",\n  \"customFields\": [],\n  \"venueId\": 4000005233,\n  \"marketingOptIn\": true,\n  \"devices\": [\n    {\n      \"os\": \"iOS\",\n      \"userAgent\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148\",\n      \"brand\": \"Apple\",\n      \"type\": \"mobile\",\n      \"deviceId\": 4050336600,\n      \"clientMacAddress\": \"22:4D:77:94:17:E7\",\n      \"lastActive\": \"1727468242000\",\n      \"model\": \"iPhone\"\n    }\n  ],\n  \"termsAcceptanceDate\": 1727468242000,\n  \"email\": \"mayco.barale@deptagency.com\",\n  \"state\": \"Texas\",\n  \"verifiedPhoneNumber\": false,\n  \"country\": \"United States\",\n  \"skyfiiId\": \"46892552\",\n  \"locale\": \"en-us\",\n  \"verifiedEmail\": false,\n  \"modified\": 1727468265000,\n  \"operation\": \"create\",\n  \"termsAcceptanceVersion\": 4000000000,\n  \"status\": \"subscribed\",\n  \"marketingLists\": [\n    {\n      \"status\": \"subscribed\",\n      \"id\": \"1205\"\n    }\n  ],\n  \"verifiedWhatsAppPhoneNumber\": false,\n  \"venueName\": \"Dallas\",\n  \"phone\": \"+19728164331\",\n  \"created\": 1727468242000,\n  \"gender\": \"unknown\"\n}\n\n]","timestamp":1727706364814}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1727706365685}
+{"name":"HeaderIn","value":"HTTP/1.1 200 OK\r\n","timestamp":1727706365685}
+{"name":"HeaderIn","value":"vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch\r\n","timestamp":1727706365685}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1727706365685}
+{"name":"HeaderIn","value":"Date: Mon, 30 Sep 2024 14:26:05 GMT\r\n","timestamp":1727706365685}
+{"name":"HeaderIn","value":"Connection: keep-alive\r\n","timestamp":1727706365685}
+{"name":"HeaderIn","value":"Keep-Alive: timeout=5\r\n","timestamp":1727706365685}
+{"name":"HeaderIn","value":"Transfer-Encoding: chunked\r\n","timestamp":1727706365685}
+{"name":"HeaderIn","value":"\r\n","timestamp":1727706365685}
+{"name":"Text","value":"Received 56 B chunk","timestamp":1727706365685}
+{"name":"Text","value":"Connection #24 to host localhost left intact\n","timestamp":1727706365685}

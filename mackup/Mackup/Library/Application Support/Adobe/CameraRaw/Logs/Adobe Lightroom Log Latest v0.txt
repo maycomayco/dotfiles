@@ -1,0 +1,2 @@
+cr_sdk_initialize: Adobe Lightroom 7.4.1 (Macintosh), version 16.4x1897, 64-bit, Release
+cr_sdk_terminate

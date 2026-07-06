@@ -1,0 +1,21 @@
+{"value":"Preparing request to http://localhost:3000/api/map","name":"Text","timestamp":1725379993835}
+{"value":"Current time is 2024-09-03T16:13:13.835Z","name":"Text","timestamp":1725379993835}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1725379993835}
+{"value":"Using default HTTP version","name":"Text","timestamp":1725379993836}
+{"value":"Enable SSL validation","name":"Text","timestamp":1725379993836}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1725379993836}
+{"name":"Text","value":"9 bytes stray data read before trying h2 connection\n","timestamp":1725379993836}
+{"name":"Text","value":"  Trying 127.0.0.1:3000...\n","timestamp":1725379993836}
+{"name":"Text","value":"Connected to localhost (127.0.0.1) port 3000 (#6)\n","timestamp":1725379993836}
+{"name":"HeaderOut","value":"GET /api/map HTTP/1.1\r\nHost: localhost:3000\r\nUser-Agent: insomnia/9.3.2\r\nAccept: */*\r\n\r\n","timestamp":1725379993836}
+{"name":"Text","value":"Mark bundle as not supporting multiuse\n","timestamp":1725379993854}
+{"name":"HeaderIn","value":"HTTP/1.1 200 OK\r\n","timestamp":1725379993854}
+{"name":"HeaderIn","value":"vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch\r\n","timestamp":1725379993854}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1725379993854}
+{"name":"HeaderIn","value":"Date: Tue, 03 Sep 2024 16:13:13 GMT\r\n","timestamp":1725379993854}
+{"name":"HeaderIn","value":"Connection: keep-alive\r\n","timestamp":1725379993854}
+{"name":"HeaderIn","value":"Keep-Alive: timeout=5\r\n","timestamp":1725379993854}
+{"name":"HeaderIn","value":"Transfer-Encoding: chunked\r\n","timestamp":1725379993854}
+{"name":"HeaderIn","value":"\r\n","timestamp":1725379993854}
+{"name":"Text","value":"Received 12.7 KB chunk","timestamp":1725379993854}
+{"name":"Text","value":"Connection #6 to host localhost left intact\n","timestamp":1725379993854}

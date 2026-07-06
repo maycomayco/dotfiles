@@ -1,0 +1,20 @@
+{
+  "id": "34a4f623bad748983416274ab4f5aee4dd14f801",
+  "name": "Initial Snapshot",
+  "state": [
+    {
+      "key": "wrk_47c0c3f61346431ea66c52f99b5985fb",
+      "name": "Routes",
+      "blob": "68f5136cbdc8326a4b22aaf70683f8f13996250d"
+    },
+    {
+      "key": "env_d646174b7d88b8016e65c4025f0d3ada2a503f5e",
+      "name": "Base Environment",
+      "blob": "9f4869aea81c5198393b5d27ec33b3a5366046a2"
+    }
+  ],
+  "author": "",
+  "parent": "0000000000000000000000000000000000000000",
+  "created": "2024-05-27T20:28:51.478Z",
+  "description": ""
+}

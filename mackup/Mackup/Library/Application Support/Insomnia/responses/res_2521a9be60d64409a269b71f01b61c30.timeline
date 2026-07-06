@@ -1,0 +1,68 @@
+{"value":"Preparing request to https://weather.visualcrossing.com/Visualhttps://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/cordoba%2C%20argentina/2024-07-10/2024-07-10?unitGroup=metric&include=days&key=WYP5BCJCSANRFEHR32VVDCXU5&contentType=jsonCrossingWebServices%2Frest%2Fservices%2Ftimeline%2Fcordoba,%20argentina%2F2024-07-10%2F2024-07-10%3FunitGroup%3Dmetric&key=WYP5BCJCSANRFEHR32VVDCXU5&contentType=json","name":"Text","timestamp":1720441483588}
+{"value":"Current time is 2024-07-08T12:24:43.588Z","name":"Text","timestamp":1720441483588}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1720441483588}
+{"value":"Using default HTTP version","name":"Text","timestamp":1720441483589}
+{"value":"Enable SSL validation","name":"Text","timestamp":1720441483589}
+{"name":"Text","value":"Too old connection (350 seconds), disconnect it\n","timestamp":1720441483590}
+{"name":"Text","value":"Connection 2 seems to be dead!\n","timestamp":1720441483590}
+{"name":"Text","value":"Closing connection 2\n","timestamp":1720441483590}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1720441483590}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Unknown (21):\n","timestamp":1720441483590}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS alert, close notify (256):\n","timestamp":1720441483590}
+{"name":"Text","value":"Hostname in DNS cache was stale, zapped\n","timestamp":1720441483591}
+{"name":"Text","value":"  Trying 44.209.46.37:443...\n","timestamp":1720441483629}
+{"name":"Text","value":"Connected to weather.visualcrossing.com (44.209.46.37) port 443 (#3)\n","timestamp":1720441483804}
+{"name":"Text","value":"ALPN, offering h2\n","timestamp":1720441483805}
+{"name":"Text","value":"ALPN, offering http/1.1\n","timestamp":1720441483805}
+{"name":"Text","value":" CAfile: /etc/ssl/cert.pem\n","timestamp":1720441483853}
+{"name":"Text","value":"TLSv1.0 (OUT), TLS header, Certificate Status (22):\n","timestamp":1720441483853}
+{"name":"Text","value":"TLSv1.3 (OUT), TLS handshake, Client hello (1):\n","timestamp":1720441483853}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Certificate Status (22):\n","timestamp":1720441484029}
+{"name":"Text","value":"TLSv1.3 (IN), TLS handshake, Server hello (2):\n","timestamp":1720441484030}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Certificate Status (22):\n","timestamp":1720441484030}
+{"name":"Text","value":"TLSv1.2 (IN), TLS handshake, Certificate (11):\n","timestamp":1720441484030}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Certificate Status (22):\n","timestamp":1720441484033}
+{"name":"Text","value":"TLSv1.2 (IN), TLS handshake, Server key exchange (12):\n","timestamp":1720441484033}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Certificate Status (22):\n","timestamp":1720441484033}
+{"name":"Text","value":"TLSv1.2 (IN), TLS handshake, Server finished (14):\n","timestamp":1720441484033}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Certificate Status (22):\n","timestamp":1720441484034}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS handshake, Client key exchange (16):\n","timestamp":1720441484034}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Finished (20):\n","timestamp":1720441484034}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):\n","timestamp":1720441484034}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Certificate Status (22):\n","timestamp":1720441484034}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS handshake, Finished (20):\n","timestamp":1720441484034}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Finished (20):\n","timestamp":1720441484210}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Certificate Status (22):\n","timestamp":1720441484210}
+{"name":"Text","value":"TLSv1.2 (IN), TLS handshake, Finished (20):\n","timestamp":1720441484211}
+{"name":"Text","value":"SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256\n","timestamp":1720441484211}
+{"name":"Text","value":"ALPN, server accepted to use h2\n","timestamp":1720441484211}
+{"name":"Text","value":"Server certificate:\n","timestamp":1720441484211}
+{"name":"Text","value":" subject: CN=*.visualcrossing.com\n","timestamp":1720441484211}
+{"name":"Text","value":" start date: Apr 16 15:29:16 2024 GMT\n","timestamp":1720441484211}
+{"name":"Text","value":" expire date: Jul 15 15:29:15 2024 GMT\n","timestamp":1720441484211}
+{"name":"Text","value":" subjectAltName: host \"weather.visualcrossing.com\" matched cert's \"*.visualcrossing.com\"\n","timestamp":1720441484211}
+{"name":"Text","value":" issuer: C=US; O=Let's Encrypt; CN=R3\n","timestamp":1720441484211}
+{"name":"Text","value":" SSL certificate verify ok.\n","timestamp":1720441484211}
+{"name":"Text","value":"Using HTTP2, server supports multiplexing\n","timestamp":1720441484211}
+{"name":"Text","value":"Connection state changed (HTTP/2 confirmed)\n","timestamp":1720441484211}
+{"name":"Text","value":"Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0\n","timestamp":1720441484211}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1720441484211}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1720441484211}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1720441484211}
+{"name":"Text","value":"Using Stream ID: 1 (easy handle 0x138008e8400)\n","timestamp":1720441484211}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1720441484211}
+{"name":"HeaderOut","value":"GET /Visualhttps://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/cordoba%2C%20argentina/2024-07-10/2024-07-10?unitGroup=metric&include=days&key=WYP5BCJCSANRFEHR32VVDCXU5&contentType=jsonCrossingWebServices%2Frest%2Fservices%2Ftimeline%2Fcordoba,%20argentina%2F2024-07-10%2F2024-07-10%3FunitGroup%3Dmetric&key=WYP5BCJCSANRFEHR32VVDCXU5&contentType=json HTTP/2\r\nHost: weather.visualcrossing.com\r\nuser-agent: insomnia/9.3.1\r\naccept: */*\r\n\r\n","timestamp":1720441484211}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1720441484211}
+{"name":"Text","value":"Connection state changed (MAX_CONCURRENT_STREAMS == 128)!\n","timestamp":1720441484211}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1720441484211}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1720441484388}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1720441484389}
+{"name":"HeaderIn","value":"HTTP/2 404 \r\n","timestamp":1720441484389}
+{"name":"HeaderIn","value":"date: Mon, 08 Jul 2024 12:24:44 GMT\r\n","timestamp":1720441484389}
+{"name":"HeaderIn","value":"content-type: text/html;charset=utf-8\r\n","timestamp":1720441484389}
+{"name":"HeaderIn","value":"content-length: 431\r\n","timestamp":1720441484389}
+{"name":"HeaderIn","value":"content-language: en\r\n","timestamp":1720441484389}
+{"name":"HeaderIn","value":"\r\n","timestamp":1720441484389}
+{"name":"Text","value":"Received 431 B chunk","timestamp":1720441484390}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1720441484390}
+{"name":"Text","value":"Connection #3 to host weather.visualcrossing.com left intact\n","timestamp":1720441484390}

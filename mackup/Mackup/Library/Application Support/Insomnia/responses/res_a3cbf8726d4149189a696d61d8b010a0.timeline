@@ -1,0 +1,211 @@
+{"value":"Preparing request to https://fashionquirurgico.com.ar/wp-json/wp/v2/","name":"Text","timestamp":1743020391078}
+{"value":"Current time is 2025-03-26T20:19:51.078Z","name":"Text","timestamp":1743020391078}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1743020391078}
+{"value":"Using default HTTP version","name":"Text","timestamp":1743020391079}
+{"value":"Enable SSL validation","name":"Text","timestamp":1743020391079}
+{"name":"Text","value":"Found bundle for host: 0x11c05301d40 [can multiplex]\n","timestamp":1743020391079}
+{"name":"Text","value":"Re-using existing connection #1 with host fashionquirurgico.com.ar\n","timestamp":1743020391079}
+{"name":"Text","value":"Connected to fashionquirurgico.com.ar (92.112.198.172) port 443 (#1)\n","timestamp":1743020391079}
+{"name":"Text","value":"h2h3 [:method: GET]\n","timestamp":1743020391079}
+{"name":"Text","value":"h2h3 [:path: /wp-json/wp/v2/]\n","timestamp":1743020391079}
+{"name":"Text","value":"h2h3 [:scheme: https]\n","timestamp":1743020391079}
+{"name":"Text","value":"h2h3 [:authority: fashionquirurgico.com.ar]\n","timestamp":1743020391079}
+{"name":"Text","value":"h2h3 [user-agent: insomnia/10.3.1]\n","timestamp":1743020391079}
+{"name":"Text","value":"h2h3 [accept: */*]\n","timestamp":1743020391079}
+{"name":"Text","value":"Using Stream ID: 11 (easy handle 0x11c009ca200)\n","timestamp":1743020391079}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1743020391079}
+{"name":"HeaderOut","value":"GET /wp-json/wp/v2/ HTTP/2\r\nHost: fashionquirurgico.com.ar\r\nuser-agent: insomnia/10.3.1\r\naccept: */*\r\n\r\n","timestamp":1743020391079}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"date: Wed, 26 Mar 2025 20:19:52 GMT\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"content-type: application/json; charset=UTF-8\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"vary: Accept-Encoding\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"x-powered-by: PHP/7.4.33\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"x-dns-prefetch-control: on\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"x-robots-tag: noindex\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"link: <https://fashionquirurgico.com.ar/wp-json/>; rel=\"https://api.w.org/\"\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"x-content-type-options: nosniff\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"access-control-expose-headers: X-WP-Total, X-WP-TotalPages, Link\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"access-control-allow-headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"allow: GET\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"etag: W/\"62406-1743020391;gz\"\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"x-litespeed-cache: miss\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"platform: hostinger\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"panel: hpanel\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"content-security-policy: upgrade-insecure-requests\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"server: hcdn\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"alt-svc: h3=\":443\"; ma=86400\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"x-hcdn-request-id: 1f0abad22ce1c5e46819c0af4441df01-phx-edge7\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"x-hcdn-cache-status: MISS\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"x-hcdn-upstream-rt: 0.704\r\n","timestamp":1743020392019}
+{"name":"HeaderIn","value":"\r\n","timestamp":1743020392019}
+{"name":"Text","value":"Received 782 B chunk","timestamp":1743020392019}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392019}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392019}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392019}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392019}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392019}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392022}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392022}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392022}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392022}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392027}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392027}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1743020392027}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392027}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392031}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392031}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392031}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392031}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392033}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392033}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392033}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392033}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392036}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392036}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1743020392039}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392039}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392040}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392040}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392040}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392040}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392043}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392043}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392043}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392043}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392046}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392046}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1743020392047}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392047}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392050}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392050}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392050}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392050}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392054}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392054}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392054}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392054}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392057}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392057}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1743020392057}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392057}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392062}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392062}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392062}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392062}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392063}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392063}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392063}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392063}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392067}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392067}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1743020392067}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392067}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392071}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392071}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392071}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392071}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392074}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392074}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392074}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392074}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392077}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392077}
+{"name":"Text","value":"Received 1360 B chunk","timestamp":1743020392078}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392078}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392080}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392080}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392081}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392081}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392084}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392084}
+{"name":"Text","value":"Received 1369 B chunk","timestamp":1743020392085}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392085}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392097}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392098}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392098}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392098}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392101}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392101}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392105}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392105}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392121}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392121}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392121}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392121}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392125}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392125}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392129}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392129}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392136}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392137}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392139}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392139}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392143}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392143}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392151}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392151}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392154}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392154}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392161}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392161}
+{"name":"Text","value":"Received 57 B chunk","timestamp":1743020392161}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392161}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392167}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392167}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392170}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392170}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392174}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392174}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392182}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392182}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392184}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392184}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392201}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392201}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392203}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392203}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392204}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392204}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392205}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392205}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392211}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392211}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392215}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392215}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392221}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392221}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392225}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392225}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392233}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392233}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392236}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392236}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392242}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392242}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392246}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392246}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392252}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392252}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392259}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392259}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392262}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392262}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392269}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392269}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392273}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392273}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392280}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392280}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392285}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392286}
+{"name":"Text","value":"Received 4.1 KB chunk","timestamp":1743020392302}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392302}
+{"name":"Text","value":"Received 16 KB chunk","timestamp":1743020392307}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392307}
+{"name":"Text","value":"Received 16 KB chunk","timestamp":1743020392327}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392327}
+{"name":"Text","value":"Received 16 KB chunk","timestamp":1743020392348}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1743020392348}
+{"name":"Text","value":"Received 11.7 KB chunk","timestamp":1743020392366}
+{"name":"Text","value":"Connection #1 to host fashionquirurgico.com.ar left intact\n","timestamp":1743020392366}

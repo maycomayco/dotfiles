@@ -1,0 +1,26 @@
+{"value":"Preparing request to https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/cordoba%2C%20argentina/today?unitGroup=metric&key=WYP5BCJCSANRFEHR32VVDCXU5&contentType=json","name":"Text","timestamp":1720440497245}
+{"value":"Current time is 2024-07-08T12:08:17.245Z","name":"Text","timestamp":1720440497245}
+{"value":"Enable automatic URL encoding","name":"Text","timestamp":1720440497245}
+{"value":"Using default HTTP version","name":"Text","timestamp":1720440497245}
+{"value":"Enable SSL validation","name":"Text","timestamp":1720440497245}
+{"name":"Text","value":"Found bundle for host weather.visualcrossing.com: 0x138063880c0 [can multiplex]\n","timestamp":1720440497246}
+{"name":"Text","value":"Re-using existing connection! (#0) with host weather.visualcrossing.com\n","timestamp":1720440497246}
+{"name":"Text","value":"Connected to weather.visualcrossing.com (3.227.42.82) port 443 (#0)\n","timestamp":1720440497246}
+{"name":"Text","value":"Using Stream ID: 3 (easy handle 0x138008e8400)\n","timestamp":1720440497246}
+{"name":"Text","value":"TLSv1.2 (OUT), TLS header, Supplemental data (23):\n","timestamp":1720440497246}
+{"name":"HeaderOut","value":"GET /VisualCrossingWebServices/rest/services/timeline/cordoba%2C%20argentina/today?unitGroup=metric&key=WYP5BCJCSANRFEHR32VVDCXU5&contentType=json HTTP/2\r\nHost: weather.visualcrossing.com\r\nuser-agent: insomnia/9.3.1\r\naccept: */*\r\n\r\n","timestamp":1720440497246}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1720440497505}
+{"name":"HeaderIn","value":"HTTP/2 200 \r\n","timestamp":1720440497505}
+{"name":"HeaderIn","value":"date: Mon, 08 Jul 2024 12:08:17 GMT\r\n","timestamp":1720440497505}
+{"name":"HeaderIn","value":"content-type: application/json\r\n","timestamp":1720440497505}
+{"name":"HeaderIn","value":"cache-control: no-cache,no-transform\r\n","timestamp":1720440497505}
+{"name":"HeaderIn","value":"access-control-allow-origin: *\r\n","timestamp":1720440497505}
+{"name":"HeaderIn","value":"access-control-allow-methods: GET, POST, DELETE, PUT\r\n","timestamp":1720440497505}
+{"name":"HeaderIn","value":"access-control-allow-headers: X-Requested-With, Content-Type, X-Codingpedia\r\n","timestamp":1720440497505}
+{"name":"HeaderIn","value":"x-powered-by: Visual Crossing Weather\r\n","timestamp":1720440497505}
+{"name":"HeaderIn","value":"\r\n","timestamp":1720440497505}
+{"name":"Text","value":"Received 11 KB chunk","timestamp":1720440497505}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1720440497506}
+{"name":"Text","value":"Received 857 B chunk","timestamp":1720440497506}
+{"name":"Text","value":"TLSv1.2 (IN), TLS header, Supplemental data (23):\n","timestamp":1720440497506}
+{"name":"Text","value":"Connection #0 to host weather.visualcrossing.com left intact\n","timestamp":1720440497506}
