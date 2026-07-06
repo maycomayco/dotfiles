@@ -2,10 +2,18 @@
 
 > From zero to fully configured Mac in minutes.
 
-Personal Mac setup. One command to go from factory reset to coding.
+Personal Mac setup. From factory reset to coding in one command.
 
 ```bash
-git clone https://github.com/maycobarale/dotfiles ~/.dotfiles
+curl -fsSL https://raw.githubusercontent.com/maycomayco/dotfiles/main/bootstrap.sh | bash
+```
+
+This installs Xcode Command Line Tools, clones the repo to `~/.dotfiles`, and runs the installer.
+
+## Manual install
+
+```bash
+git clone https://github.com/maycomayco/dotfiles ~/.dotfiles
 cd ~/.dotfiles
 ./install.sh
 ```
@@ -163,7 +171,8 @@ These steps require human interaction and can't be automated:
 
 ```
 dotfiles/
-├── install.sh                # Entry point
+├── bootstrap.sh              # Remote entry point (curl | bash)
+├── install.sh                # Local orchestrator
 ├── Brewfile                  # Homebrew packages and casks
 ├── scripts/                  # Individual setup steps
 │   ├── 01-xcode.sh           # Xcode Command Line Tools
