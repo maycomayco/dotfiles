@@ -37,6 +37,7 @@ brew "gentleman-programming/tap/gentle-ai", trusted: true
 # Gentleman Guardian Angel - Provider-agnostic code review using AI (Claude, Gemini, Codex, OpenCode, Ollama)
 brew "gentleman-programming/tap/gga"
 # Password manager that keeps all passwords secure behind one password
+cask "raycast"
 cask "1password"
 # Display management tool
 cask "betterdisplay"
