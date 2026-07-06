@@ -22,3 +22,7 @@ home/.gnupg/
 
 # Mackup backups (large files)
 mackup/Mackup/Library/Application Support/Insomnia/backups/
+
+# Raycast (managed via account sync, not mackup)
+*.rayconfig
+home/.config/raycast/
