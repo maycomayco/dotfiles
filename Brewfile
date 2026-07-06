@@ -16,8 +16,6 @@ brew "mole"
 brew "node"
 # Libraries for security-enabled client and server applications
 brew "nss"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@1.1"
 # Fast, disk space efficient package manager
 brew "pnpm"
 # Python version management
