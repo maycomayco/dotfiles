@@ -20,4 +20,4 @@ if ! grep -q 'brew shellenv' "$ZPROFILE" 2>/dev/null; then
 fi
 
 echo "Installing packages from Brewfile..."
-brew bundle --file="$DOTFILES_DIR/Brewfile"
+HOMEBREW_NO_REQUIRE_TAP_TRUST=1 brew bundle --file="$DOTFILES_DIR/Brewfile"
