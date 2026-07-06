@@ -54,8 +54,8 @@ Estas apps no tienen export nativo. Backup manual de sus plist/config:
 
 ### Superwhisper
 ```bash
-cp ~/Library/Preferences/com.superduper.superwhisper.plist ~/custom-config/app-backups/
-cp -R ~/Library/Application\ Support/com.superduper.superwhisper ~/custom-config/app-backups/
+cp ~/Library/Preferences/com.superduper.superwhisper.plist ~/dotfiles/app-backups/
+cp -R ~/Library/Application\ Support/com.superduper.superwhisper ~/dotfiles/app-backups/
 ```
 **Nota**: Los modelos ML (~500MB) no se respaldan. Descargarlos desde Settings en la nueva máquina.
 
@@ -68,7 +68,7 @@ cp -R ~/Library/Application\ Support/com.superduper.superwhisper ~/custom-config
 ### Shottr
 
 ```bash
-cp -R ~/Library/Application\ Scripts/cc.ffitch.shottr ~/custom-config/app-backups/
+cp -R ~/Library/Application\ Scripts/cc.ffitch.shottr ~/dotfiles/app-backups/
 ```
 
 ### DeskPad
@@ -80,19 +80,19 @@ cp -R ~/Library/Application\ Scripts/cc.ffitch.shottr ~/custom-config/app-backup
 ### Pearcleaner
 
 ```bash
-cp ~/Library/Preferences/com.alienator88.Pearcleaner.plist ~/custom-config/app-backups/
+cp ~/Library/Preferences/com.alienator88.Pearcleaner.plist ~/dotfiles/app-backups/
 ```
 
 ### Only Switch
 
 ```bash
-cp ~/Library/Preferences/jacklandrin.OnlySwitch.plist ~/custom-config/app-backups/
+cp ~/Library/Preferences/jacklandrin.OnlySwitch.plist ~/dotfiles/app-backups/
 ```
 
 ### OpenUsage
 
 ```bash
-cp -R ~/Library/Application\ Support/com.sunstory.openusage ~/custom-config/app-backups/
+cp -R ~/Library/Application\ Support/com.sunstory.openusage ~/dotfiles/app-backups/
 ```
 
 ---
@@ -158,7 +158,7 @@ Estas las gestiona tu empresa, no las instalás vos:
 #!/bin/bash
 # backup-manual-apps.sh
 
-BACKUP_DIR="$HOME/custom-config/app-backups"
+BACKUP_DIR="$HOME/dotfiles/app-backups"
 mkdir -p "$BACKUP_DIR"
 
 # Hidden Bar
@@ -202,7 +202,7 @@ mackup backup --force
 # - BetterDisplay: Settings → Export
 
 # 4. Commitear todo
-cd ~/custom-config
+cd ~/dotfiles
 git add .
 git commit -m "Migration backup $(date +%Y-%m-%d)"
 git push
@@ -215,16 +215,16 @@ git push
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # 2. Clonar repo
-git clone https://github.com/tu-usuario/custom-config.git ~/custom-config
+git clone https://github.com/tu-usuario/dotfiles.git ~/dotfiles
 
 # 3. Instalar todo
-brew bundle --file=~/custom-config/Brewfile
+brew bundle --file=~/dotfiles/Brewfile
 
 # 4. Restaurar Mackup
 mackup restore --force
 
 # 5. Restaurar backups manuales
-cp ~/custom-config/app-backups/*.plist ~/Library/Preferences/
+cp ~/dotfiles/app-backups/*.plist ~/Library/Preferences/
 
 # 6. Importar configs nativas
 # - Raycast: importar .rayconfig

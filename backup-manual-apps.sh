@@ -2,7 +2,7 @@
 # backup-manual-apps.sh
 # Backup de apps que Mackup no cubre y no tienen export nativo
 
-BACKUP_DIR="$HOME/custom-config/app-backups"
+BACKUP_DIR="$HOME/dotfiles/app-backups"
 mkdir -p "$BACKUP_DIR"
 
 echo "🔄 Iniciando backup manual..."
