@@ -19,7 +19,3 @@ home/.gnupg/
 
 # Engram
 .atl/
-
-# Raycast
-*.rayconfig
-home/.config/raycast/

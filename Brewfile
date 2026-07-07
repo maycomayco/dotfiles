@@ -56,8 +56,6 @@ cask "itsycal"
 cask "mole-app"
 # System and utility switches
 cask "only-switch"
-# AI coding agent desktop client
-cask "opencode-desktop"
 # AI usage tracker for Cursor, Claude Code, Codex, Copilot and more
 cask "openusage"
 # Screenshot measurement and annotation tool

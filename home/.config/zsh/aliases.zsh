@@ -22,8 +22,6 @@ alias l="ls -CF"
 # ─── Utilities ────────────────────────────────────────────────────────────
 alias bye='rm -rf'
 alias cls="clear"
-alias ports="lsof -i -P -n | grep LISTEN"
-alias myip="curl -s ifconfig.me"
 
 # ─── Git ──────────────────────────────────────────────────────────────────
 alias gs="git status"
