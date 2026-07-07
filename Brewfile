@@ -66,3 +66,4 @@ cask "superwhisper"
 cask "tidal"
 # Rust-based terminal
 cask "warp"
+cask "visual-studio-code"
