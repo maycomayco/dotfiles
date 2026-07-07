@@ -8,7 +8,6 @@ plugins=(
   sudo
   copypath
   copyfile
-  web-search
   extract
   colored-man-pages
 )

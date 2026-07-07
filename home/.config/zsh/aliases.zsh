@@ -10,6 +10,10 @@ alias dept="cd ~/dept"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+alias chat="cd ~/dev/chat"
+alias sports="cd ~/dev/sports-data"
+alias openchat="chat && opencode"
+alias opensports="sports && opencode"
 
 # ─── CLI Replacements ──────────────────────────────────────────────────────
 alias cat="bat"
@@ -44,7 +48,3 @@ alias pri="pnpm install"
 
 # ─── Claude ───────────────────────────────────────────────────────────────
 alias claudio="claude --allow-dangerously-skip-permissions"
-
-# ─── Work: SimpliSafe ─────────────────────────────────────────────────────
-alias nrr="dx dev"
-alias nrg="npm run shell:clean && npm run shell:develop"
