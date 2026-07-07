@@ -13,11 +13,6 @@ home/.config/zsh/aliases.work.zsh
 home/.ssh/
 home/.gnupg/
 
-# Mackup sensitive paths
-mackup/Mackup/.aws/
-mackup/Mackup/.ssh/
-mackup/Mackup/.gnupg/
-
 # macOS
 .DS_Store
 **/.DS_Store
@@ -25,9 +20,6 @@ mackup/Mackup/.gnupg/
 # Engram
 .atl/
 
-# Mackup backups (large files)
-mackup/Mackup/Library/Application Support/Insomnia/backups/
-
-# Raycast (managed via account sync, not mackup)
+# Raycast
 *.rayconfig
 home/.config/raycast/

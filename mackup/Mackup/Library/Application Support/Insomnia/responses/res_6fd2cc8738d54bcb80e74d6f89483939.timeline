@@ -1,7 +1,0 @@
-{"value":"Preparing request to http://my/%20custom%20template%20logic/api/v1/newbalance","name":"Text","timestamp":1777038534180}
-{"value":"Current time is 2026-04-24T13:48:54.180Z","name":"Text","timestamp":1777038534180}
-{"value":"Enable automatic URL encoding","name":"Text","timestamp":1777038534180}
-{"value":"Using default HTTP version","name":"Text","timestamp":1777038534180}
-{"value":"Enable SSL validation","name":"Text","timestamp":1777038534180}
-{"name":"Text","value":"Could not resolve host: my\n","timestamp":1777038534228}
-{"name":"Text","value":"Closing connection 30\n","timestamp":1777038534228}

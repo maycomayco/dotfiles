@@ -1,1 +1,0 @@
-{"errors":[{"id":"7250eebe-12ff-46a9-8a35-76a4b48e72a0","status":409,"code":"duplicate_profile","title":"Conflict.","detail":"A profile already exists with one of these identifiers.","source":{"pointer":"/data/attributes"},"links":{},"meta":{"duplicate_profile_id":"01J1QKVQE6W3PZ458EMPTHCK1Z"}}]}

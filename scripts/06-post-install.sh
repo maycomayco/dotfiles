@@ -20,16 +20,6 @@ if [[ -f "$HOME/.netrc" ]]; then
   echo ".netrc permissions fixed."
 fi
 
-# ─── mackup ──────────────────────────────────────────────────────────────────
-if command -v pipx &>/dev/null; then
-  echo "Installing mackup via pipx..."
-  pipx install mackup 2>/dev/null || echo "mackup already installed"
-  echo "Restoring mackup configs..."
-  mackup restore --force 2>/dev/null || echo "mackup restore skipped (no backup found yet)"
-else
-  echo "pipx not available — skipping mackup."
-fi
-
 # ─── Manual steps ────────────────────────────────────────────────────────────
 echo ""
 echo "======================================"

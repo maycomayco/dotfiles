@@ -1,1 +1,0 @@
-{"message":"password is not defined","stack":"ReferenceError: password is not defined\n    at file:///Users/mayco/dev/mern-auth/backend/controllers/userController.js:15:40\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}

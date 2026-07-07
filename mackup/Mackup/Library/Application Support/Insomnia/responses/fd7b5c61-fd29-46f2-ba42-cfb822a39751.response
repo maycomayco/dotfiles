@@ -1,1 +1,0 @@
-{"message":"User already exists","stack":"Error: User already exists\n    at file:///Users/mayco/dev/mern-auth/backend/controllers/userController.js:22:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
