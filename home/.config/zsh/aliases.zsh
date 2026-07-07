@@ -4,16 +4,16 @@ alias zshupdate="source ~/.zshrc"
 alias zshsecrets="code ~/.zshrc.secrets"
 
 # ─── Navigation ───────────────────────────────────────────────────────────
-alias dev="cd ~/dev"
-alias work="cd ~/work"
-alias dept="cd ~/dept"
+alias dev="cd ~/development"
+alias work="cd ~/workspace"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
-alias chat="cd ~/dev/chat"
-alias sports="cd ~/dev/sports-data"
+alias chat="cd ~/development/chat"
+alias sports="cd ~/development/sports-data"
 alias openchat="chat && opencode"
 alias opensports="sports && opencode"
+alias dotfiles="cd ~/.dotfiles"
 
 # ─── CLI Replacements ──────────────────────────────────────────────────────
 alias cat="bat"
