@@ -4,24 +4,10 @@ brew "bat"
 brew "btop"
 # GitHub command-line tool
 brew "gh"
-# Open source programming language to build simple/reliable/efficient software
-brew "go"
-# Deep clean and optimize your Mac
 brew "mole"
-# Open-source, cross-platform JavaScript runtime environment
-brew "node"
 # Libraries for security-enabled client and server applications
 brew "nss"
-# Execute binaries from Python packages in isolated environments
-brew "pipx"
-# Fast, disk space efficient package manager
 brew "pnpm"
-# Python version management
-brew "pyenv"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.12"
-# Command-line interface for Render
-brew "render"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Fish-like fast/unobtrusive autosuggestions for zsh
