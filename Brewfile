@@ -52,8 +52,6 @@ cask "font-sf-mono"
 cask "hiddenbar"
 # Menu bar calendar
 cask "itsycal"
-# Deep clean, analyze, and optimize app
-cask "mole-app"
 # System and utility switches
 cask "only-switch"
 # AI usage tracker for Cursor, Claude Code, Codex, Copilot and more
@@ -67,3 +65,4 @@ cask "tidal"
 # Rust-based terminal
 cask "warp"
 cask "visual-studio-code"
+cask "orbstack"
