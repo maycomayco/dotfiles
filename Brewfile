@@ -52,3 +52,5 @@ cask "tidal"
 cask "warp"
 cask "visual-studio-code"
 cask "orbstack"
+# brew tap shaunsingh/SFMono-Nerd-Font-Ligaturized
+cask "font-sf-mono-nerd-font-ligaturized"

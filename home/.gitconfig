@@ -6,10 +6,10 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[includeIf "gitdir:~/work/**"]
-	path = ~/work/.gitconfig-dept
-[includeIf "gitdir:~/work/tr/**"]
-	path = ~/work/tr/.gitconfig-tr
+[includeIf "gitdir:~/workspace/**"]
+	path = ~/workspace/.gitconfig-dept
+[includeIf "gitdir:~/workspace/tr/**"]
+	path = ~/workspace/tr/.gitconfig-tr
 [core]
 	pager = delta
 [interactive]
