@@ -40,3 +40,4 @@ eval "$(starship init zsh)"
 
 # ─── Secrets (must be last) ───────────────────────────────────────────────
 [[ -f ~/.zshrc.secrets ]] && source ~/.zshrc.secrets
+eval "$(mise activate zsh)"
