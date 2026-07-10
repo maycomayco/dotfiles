@@ -26,7 +26,8 @@ BREW_BIN="/opt/homebrew/bin/brew"
 
 run_script 03-symlinks.sh
 run_script 04-omz.sh
-run_script 05-macos.sh
-run_script 06-post-install.sh
+run_script 05-mise.sh
+run_script 06-macos.sh
+run_script 07-post-install.sh
 
 info "Done. Restart your terminal."
