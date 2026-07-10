@@ -2,15 +2,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME=""
 
-plugins=(
-  git
-  z
-  sudo
-  copypath
-  copyfile
-  extract
-  colored-man-pages
-)
+plugins=()
 
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 source $ZSH/oh-my-zsh.sh
@@ -35,9 +27,19 @@ source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # ─── zsh-syntax-highlighting (must be before starship) ────────────────────
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# ─── Starship Prompt ──────────────────────────────────────────────────────
-eval "$(starship init zsh)"
-
 # ─── Secrets (must be last) ───────────────────────────────────────────────
 [[ -f ~/.zshrc.secrets ]] && source ~/.zshrc.secrets
+
+# TOOLS
+
+# mise (replaces pyenv, rbenv, nodenv, etc.)
 eval "$(mise activate zsh)"
+
+# fzf
+eval "$(fzf --zsh)"
+
+# zoxide (replaces cd)
+eval "$(zoxide init zsh)"
+
+# ─── Starship Prompt ──────────────────────────────────────────────────────
+eval "$(starship init zsh)"
