@@ -11,7 +11,3 @@ fi
 
 # OpenCode
 export PATH="$HOME/.opencode/bin:$PATH"
-
-# Local bin
-. "$HOME/.local/bin/env"
-export PATH="$HOME/.local/bin:$PATH"
