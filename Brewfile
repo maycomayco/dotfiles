@@ -7,7 +7,7 @@ brew "gh"
 brew "mole"
 # Libraries for security-enabled client and server applications
 brew "nss"
-brew "pnpm"
+brew "fzf"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Fish-like fast/unobtrusive autosuggestions for zsh
@@ -34,6 +34,7 @@ cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "font-monaspace"
 cask "font-sf-mono"
+cask "font-sf-mono-nerd-font-ligaturized"
 # Utility to hide menu bar items
 cask "hiddenbar"
 # Menu bar calendar
@@ -52,5 +53,3 @@ cask "tidal"
 cask "warp"
 cask "visual-studio-code"
 cask "orbstack"
-# brew tap shaunsingh/SFMono-Nerd-Font-Ligaturized
-cask "font-sf-mono-nerd-font-ligaturized"
