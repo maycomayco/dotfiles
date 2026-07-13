@@ -8,6 +8,7 @@ brew "mole"
 # Libraries for security-enabled client and server applications
 brew "nss"
 brew "fzf"
+brew "zoxide"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Fish-like fast/unobtrusive autosuggestions for zsh
