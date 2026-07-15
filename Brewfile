@@ -31,11 +31,12 @@ cask "brave-browser"
 cask "deskpad"
 # Collaborative team software
 cask "figma"
+# Font for programming and terminal usage
 cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "font-monaspace"
-cask "font-sf-mono"
 cask "font-sf-mono-nerd-font-ligaturized"
+cask "font-geist-mono-nerd-font"
 # Utility to hide menu bar items
 cask "hiddenbar"
 # Menu bar calendar
@@ -54,4 +55,3 @@ cask "tidal"
 cask "warp"
 cask "visual-studio-code"
 cask "orbstack"
-cask "font-geist-mono-nerd-font"

@@ -36,8 +36,9 @@ The script will:
 2. Install Homebrew and all packages from `Brewfile`
 3. Symlink all dotfiles from `home/` to `~/` (backs up existing files)
 4. Install Oh My Zsh
-5. Apply macOS defaults (Dock, Finder, keyboard, dark mode)
-6. Install gh-dash, global npm packages, fix permissions
+5. Set up mise (runtime version manager)
+6. Apply macOS defaults (Dock, Finder, keyboard, dark mode)
+7. Install gh-dash, global npm packages, fix permissions
 
 ```bash
 git clone https://github.com/maycobarale/dotfiles ~/.dotfiles
@@ -179,12 +180,17 @@ dotfiles/
 │   ├── 02-homebrew.sh        # Homebrew + Brewfile
 │   ├── 03-symlinks.sh        # Symlink home/ → ~/
 │   ├── 04-omz.sh             # Oh My Zsh
-│   ├── 05-macos.sh           # macOS defaults
-│   └── 06-post-install.sh    # gh-dash, npm, manual steps
+│   ├── 05-mise.sh            # mise (runtime version manager)
+│   ├── 06-macos.sh           # macOS defaults
+│   └── 07-post-install.sh    # gh-dash, npm, manual steps
 ├── home/                     # Dotfiles (mirrored to ~/)
 │   ├── .zshrc
 │   ├── .gitconfig
+│   ├── .warp/
+│   │   └── settings.toml
 │   └── .config/
+│       ├── mise/
+│       │   └── config.toml
 │       ├── zsh/
 │       │   ├── aliases.zsh
 │       │   ├── history.zsh

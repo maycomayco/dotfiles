@@ -7,8 +7,8 @@ override_blur = 20
 zoom_level = 100
 
 [appearance.text]
-line_height_ratio = 1.2000000476837158
-font_name = "GeistMono Nerd Font Mono"
+line_height_ratio = 1.100000023841858
+font_name = "SF Mono"
 enforce_minimum_contrast = "never"
 notebook_font_size = 14.0
 font_size = 15.0
@@ -19,8 +19,7 @@ ligature_rendering_enabled = false
 font_weight = "normal"
 
 [appearance.themes]
-system_theme = true
-theme = "adeberry"
+system_theme = false
 
 [appearance.panes]
 should_dim_inactive_panes = true
@@ -36,7 +35,6 @@ view_mode = "compact"
 compact_subtitle = "working_directory"
 primary_info = "command"
 show_panel_in_restored_windows = false
-hide_title_bar_search_bar = true
 
 [appearance.blocks]
 show_jump_to_bottom_of_block_button = true
