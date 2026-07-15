@@ -7,7 +7,7 @@ override_blur = 20
 zoom_level = 100
 
 [appearance.text]
-line_height_ratio = 1.100000023841858
+line_height_ratio = 1.2000000476837158
 font_name = "GeistMono Nerd Font Mono"
 enforce_minimum_contrast = "never"
 notebook_font_size = 14.0

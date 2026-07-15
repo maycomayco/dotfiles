@@ -43,3 +43,5 @@ eval "$(zoxide init zsh)"
 
 # ─── Starship Prompt ──────────────────────────────────────────────────────
 eval "$(starship init zsh)"
+
+. "$HOME/.local/bin/env"
