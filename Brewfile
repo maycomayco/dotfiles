@@ -32,11 +32,12 @@ cask "deskpad"
 # Collaborative team software
 cask "figma"
 # Font for programming and terminal usage
-cask "font-fira-code"
-cask "font-hack-nerd-font"
+cask "font-fira-code-nerd-font"
 cask "font-monaspace"
 cask "font-sf-mono-nerd-font-ligaturized"
 cask "font-geist-mono-nerd-font"
+cask "font-jetbrains-mono"
+cask "font-iosevka-nerd-font"
 # Utility to hide menu bar items
 cask "hiddenbar"
 # Menu bar calendar

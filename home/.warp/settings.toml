@@ -7,19 +7,20 @@ override_blur = 20
 zoom_level = 100
 
 [appearance.text]
-line_height_ratio = 1.100000023841858
-font_name = "SF Mono"
-enforce_minimum_contrast = "never"
+line_height_ratio = 1.2000000476837158
+font_name = "Iosevka Nerd Font Mono"
+enforce_minimum_contrast = "always"
 notebook_font_size = 14.0
 font_size = 15.0
 use_thin_strokes = "on_high_dpi_displays"
 ai_font_name = "SF Mono"
 match_ai_font = false
-ligature_rendering_enabled = false
+ligature_rendering_enabled = true
 font_weight = "normal"
 
 [appearance.themes]
 system_theme = false
+theme = "adeberry"
 
 [appearance.panes]
 should_dim_inactive_panes = true

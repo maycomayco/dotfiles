@@ -2,6 +2,7 @@
 name: "tr-code-reviewer"
 description: "Senior code reviewer that evaluates changes across five dimensions — correctness, readability, architecture, security, and performance. Use for thorough code review before merge."
 color: "green"
+model: "opus"
 ---
 
 # Senior Code Reviewer
@@ -55,15 +56,11 @@ not enforced by ESLint or Prettier.
 
 ### React conditional rendering
 
-Prefer `condition && <Component />` over `condition ? <Component /> : null` when a
-component only needs to render UI for the truthy branch and render nothing for the
-false branch.
+Prefer `condition && <Component />` over `condition ? <Component /> : null` when a component only needs to render UI for the truthy branch and render nothing for the false branch.
 
-Use a ternary when both branches render meaningful UI, when there is an explicit
-fallback, or when it improves readability.
+Use a ternary when both branches render meaningful UI, when there is an explicit fallback, or when it improves readability.
 
-Avoid using `&&` with non-boolean values that React may render accidentally, such
-as `0` or an empty string. Convert the condition to a boolean first when needed.
+Avoid using `&&` with non-boolean values that React may render accidentally, such as `0` or an empty string. Convert the condition to a boolean first when needed.
 
 ## Output Format
 
