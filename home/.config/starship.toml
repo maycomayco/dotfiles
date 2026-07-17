@@ -3,9 +3,6 @@ format = '$all'
 [aws]
 disabled = true
 
-[bun]
-format = 'via [🍞 $version](141)'
-
 [c]
 disabled = true
 

@@ -15,8 +15,7 @@ export LC_ALL=en_US.UTF-8
 export NODE_OPTIONS="--max-old-space-size=8192"
 
 # ─── PATH ─────────────────────────────────────────────────────────────────
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+export PATH="$HOME/.local/bin:$HOME/.opencode/bin:$PATH"
 
 # ─── Shell Modules ────────────────────────────────────────────────────────
 for f in ~/.config/zsh/*.zsh; do source "$f"; done
@@ -43,7 +42,3 @@ eval "$(zoxide init zsh)"
 
 # ─── Starship Prompt ──────────────────────────────────────────────────────
 eval "$(starship init zsh)"
-
-# . "$HOME/.local/bin/env"
-
-export PATH="$HOME/.local/bin:$PATH"
