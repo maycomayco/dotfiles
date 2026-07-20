@@ -2,16 +2,16 @@
 spacing = "compact"
 
 [appearance.window]
-override_opacity = 85
+override_opacity = 90
 override_blur = 20
 zoom_level = 100
 
 [appearance.text]
 line_height_ratio = 1.2000000476837158
-font_name = "JetBrains Mono NL"
+font_name = "JetBrainsMono Nerd Font Mono"
 enforce_minimum_contrast = "always"
 notebook_font_size = 14.0
-font_size = 14.0
+font_size = 15.0
 use_thin_strokes = "on_high_dpi_displays"
 ai_font_name = "SF Mono"
 match_ai_font = false
@@ -19,7 +19,7 @@ ligature_rendering_enabled = false
 font_weight = "normal"
 
 [appearance.themes]
-system_theme = true
+system_theme = false
 theme = "adeberry"
 
 [appearance.panes]
