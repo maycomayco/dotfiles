@@ -1,20 +1,23 @@
 ---
 name: tr-review-full
-description: "Trigger: review completo, full review, deep review, revisar contra el spec, verificar que implementa el ticket, review antes de mergear. Two-axis review of one diff — code quality (tr-code-reviewer) and spec conformance (tr-spec-reviewer) in parallel — merged into a single numbered report. Use this instead of tr-review-code when the review must also check the change against its spec or Jira ticket."
+description: "Trigger: review completo, full review, deep review, revisar contra el spec, verificar que implementa el ticket, review antes de mergear. Three-axis review of one diff — code quality (tr-code-reviewer), spec conformance against the Speckit spec or the Jira ticket (tr-spec-reviewer), and React/Next performance from the Vercel rule set (tr-perf-reviewer) — run in parallel and merged into a single numbered report with one verdict. Use this instead of tr-review-code when the review must also check the change against its spec or ticket."
 argument-hint: "[pr-number] [spec-path]"
 allowed-tools: Agent, Read, Grep, Glob, Bash(gh pr view:*), Bash(gh pr diff:*), Bash(git fetch:*), Bash(git merge-base:*), Bash(git rev-parse:*), Bash(git diff:*), Bash(git status:*), Bash(git log:*), Bash(git branch:*), Bash(git ls-files:*), Bash(cat:*), Bash(ls:*), mcp__claude_ai_Atlassian__getJiraIssue
 ---
 
 # Full Review — code quality + spec conformance
 
-Two sub-agents read **one** diff in parallel, then you merge their findings into
-a single report.
+Three sub-agents read **one** diff in parallel, then you merge their findings
+into a single report.
 
-- `tr-code-reviewer` — correctness, readability, architecture, security,
-  performance, plus the tr_web conventions (a11y headings, casts, Meadow
-  tokens, Contentful guards, test style).
-- `tr-spec-reviewer` — missing requirements, scope creep, wrong
+- `tr-code-reviewer` (opus) — correctness, readability, architecture, security,
+  plus the tr_web conventions (a11y headings, casts, Meadow tokens, Contentful
+  guards, test style).
+- `tr-spec-reviewer` (opus) — missing requirements, scope creep, wrong
   implementations, and defects in the spec itself.
+- `tr-perf-reviewer` (sonnet) — the Vercel react-best-practices rule set,
+  filtered to the app's detected Next version and router paradigm. **Advisory:
+  its findings never change the verdict.**
 
 Neither sub-agent has shell access. **You** resolve the diff and the spec and
 pass them in. Resolve the diff **once** and give both agents the identical
@@ -103,10 +106,38 @@ Ask once, with what you found, and offer the candidates. If the user says
 there is no spec, drop to the next rung of the ladder — a `no` to the Speckit
 folder is not a `no` to the ticket.
 
-## Step 3 — Spawn both agents in parallel
+## Step 2b — Detect the stack profile
 
-**One message, two `Agent` calls.** Running them sequentially wastes the whole
-point.
+Cheap, and the perf axis is wrong without it. **Detect it; never hardcode it** —
+this repo will migrate to the App Router eventually and the filter must follow.
+
+1. `cat apps/next/package.json` → the `next`, `react` and `react-dom` ranges.
+   For what is actually installed, prefer
+   `node -p "require('./node_modules/next/package.json').version"`.
+2. Router paradigm: `ls -d apps/next/app` vs `ls -d apps/next/pages`. An `app/`
+   directory means `app`; only `pages/` means `pages`.
+3. Resolve the rule-set path: `~/.claude/skills/vercel-react-best-practices/`.
+   If it is missing, skip the perf axis and say so in the report header — do not
+   substitute your own performance opinions.
+
+Pass it to `tr-perf-reviewer` as a literal block:
+
+```
+Stack profile (detected <date>):
+  next: <installed version>
+  react: <installed version>
+  router: pages | app
+  rule set: <resolved path>
+```
+
+At the time of writing this repo is Next 15.5.x / React 19.2.x / `pages`, which
+suppresses the 10 App Router rules the agent lists. **Re-detect anyway.**
+
+## Step 3 — Spawn all three agents in parallel
+
+**One message, three `Agent` calls.** Running them sequentially wastes the
+whole point. The perf axis is the cheap one — it is on `sonnet` and never
+blocks — so it costs you nothing to include.
 
 ### `tr-code-reviewer`
 
@@ -137,9 +168,17 @@ scope-creep rules depend on it — plus whichever sources resolved: the paths of
 description pasted in full (it has no MCP access and cannot fetch Jira), and
 anything the user said was out of scope for this change.
 
+### `tr-perf-reviewer`
+
+Pass: the same diff payload and the **stack profile block from Step 2b**
+verbatim. Nothing else — it does not need the spec, the ticket, or the commit
+list, and giving it those invites it to stray outside its rule set.
+
+Skip this agent only when the rule-set path does not resolve.
+
 ## Step 4 — Merge into ONE report
 
-The two axes come back separately; you emit a single report in
+The three axes come back separately; you emit a single report in
 `tr-code-reviewer`'s style.
 
 **Numbering is the contract.** One continuous numbered list running across all
@@ -148,10 +187,12 @@ at 1 and never restarting. The user references these numbers in follow-ups
 ("apply 2 and 5", `/wait-what 3`), so:
 
 - never renumber after the fact within one report;
-- tag every item with its axis — `[Code]` or `[Spec]` — so the origin survives
-  the merge;
-- if both agents found the same underlying issue, emit **one** item carrying
-  both tags at the higher severity, and say both axes flagged it.
+- tag every item with its axis — `[Code]`, `[Spec]` or `[Perf]` — so the origin
+  survives the merge;
+- if two agents found the same underlying issue, emit **one** item carrying
+  both tags at the higher severity, and say both axes flagged it. `[Code]` and
+  `[Perf]` overlap most often (both look at re-renders and expensive work); the
+  code axis wins the wording, and cite the Vercel rule id alongside it.
 
 ### Verdict rule — state it, do not improvise it
 
@@ -166,15 +207,21 @@ Otherwise **APPROVE**. Spec defects, scope creep, and code-axis Important
 findings that are not Critical do not on their own block; call them out and let
 the user decide.
 
+**The perf axis never enters this calculation.** Not even its `Important`
+findings. It is capped at advisory by design — a waterfall is worth knowing
+about before you merge, but it is not a reason to withhold an approval, and a
+`js-*` nit certainly is not. If the perf axis is the only axis with findings,
+the verdict is **APPROVE** and the findings ride along as numbered suggestions.
+Say so in one line rather than leaving the reader to infer it.
+
 ### Template
 
 ```markdown
 ## Full Review — <PR #N | local branch> vs <fixed point>
 
 **Verdict:** APPROVE | REQUEST CHANGES
-**Axes:** code quality + spec conformance (source: `specs/NNN-slug` + `MAP-NNNN`
-| ticket-only `MAP-NNNN` | pr-only | code axis only — no spec found)
-**Overview:** [1-2 sentences on the change and the overall assessment]
+**Axes:** code + spec + perf
+**Spec source:** `specs/NNN-slug` + `MAP-NNNN` | ticket-only `MAP-NNNN` | pr-only | none — spec axis skipped
 
 ### Critical
 
@@ -189,6 +236,7 @@ the user decide.
 ### Suggestions
 
 5. **[Code]** ...
+6. **[Perf]** `async-parallel` — [advisory; does not block]
 
 ### What's Done Well
 
@@ -198,6 +246,7 @@ the user decide.
 
 - Diff reviewed: [N files, fixed point, whether untracked files were included]
 - Spec source: [paths + ticket, or "none — spec axis skipped"]
+- Stack profile: [detected values, and which perf rules it suppressed]
 - Tests reviewed: [yes/no, observations]
 - Not verified: [anything neither agent could check by reading — page-level
   heading trees, runtime behaviour, whether a `[x]` task landed in an earlier
@@ -209,11 +258,14 @@ across the ones that remain.
 
 ## Rules
 
-1. Resolve the diff once; both agents get the identical payload.
+1. Resolve the diff once; all three agents get the identical payload.
 2. Validate the fixed point and a non-empty diff **before** spawning anything.
-3. Spawn the two agents in a single message so they actually run in parallel.
+3. Spawn the three agents in a single message so they actually run in parallel.
+   Detect the stack profile first — the perf agent cannot run without it.
 4. Never post the review as a PR comment. It goes to the user only.
 5. Never claim a build, test run, or lint pass was verified — no agent in this
    skill can run one.
-6. Do not drop a finding just because the other axis disagrees. Report both and
+6. Do not drop a finding just because another axis disagrees. Report both and
    say they disagree.
+7. Never let the perf axis promote itself. If it returns a `Critical`, demote
+   it to `Important` and note that the axis is capped.
