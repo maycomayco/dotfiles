@@ -3,7 +3,7 @@ name: "tr-code-reviewer"
 description: "Senior code reviewer for the tr_web Next.js app (Contentful, Meadow design system, BFF layer). Reviews a diff supplied by the caller — correctness, readability, architecture, security, performance, plus the team's a11y, typing, theming and test conventions. Use before merge; the caller must provide the diff."
 color: "green"
 model: "opus"
-effort: "medium"
+effort: "low"
 tools: "Read, Grep, Glob"
 ---
 

@@ -10,12 +10,12 @@ allowed-tools: Agent, Read, Grep, Glob, Bash(gh pr view:*), Bash(gh pr diff:*), 
 Three sub-agents read **one** diff in parallel, then you merge their findings
 into a single report.
 
-- `tr-code-reviewer` (opus) — correctness, readability, architecture, security,
+- `tr-code-reviewer` — correctness, readability, architecture, security,
   plus the tr_web conventions (a11y headings, casts, Meadow tokens, Contentful
   guards, test style).
-- `tr-spec-reviewer` (opus) — missing requirements, scope creep, wrong
+- `tr-spec-reviewer` — missing requirements, scope creep, wrong
   implementations, and defects in the spec itself.
-- `tr-perf-reviewer` (sonnet) — the Vercel react-best-practices rule set,
+- `tr-perf-reviewer` — the Vercel react-best-practices rule set,
   filtered to the app's detected Next version and router paradigm. **Advisory:
   its findings never change the verdict.**
 
@@ -48,7 +48,7 @@ merged work.
    the branch has no commits yet and every change is uncommitted; say that in
    the payload rather than passing the agents no context at all.
 5. `git diff $FP` — **two-dot against the merge-base commit**, so the payload
-   covers committed branch work *and* staged *and* unstaged changes in one go.
+   covers committed branch work _and_ staged _and_ unstaged changes in one go.
 6. `git ls-files --others --exclude-standard` for the untracked files — **not**
    `git status --short`, which collapses an entire new directory into a single
    `?? dir/` entry and silently hides every file inside it. `Read` each one and
@@ -82,13 +82,13 @@ ticket and nothing else. Walk this ladder and use the first source that
 resolves. **A missing `specs/` folder is not a reason to ask, and never a
 reason to skip the axis** — fall through.
 
-| # | Source | Mode to tell the agent |
-| --- | --- | --- |
-| 1 | `$2`, a spec path the user passed | `speckit` — overrides everything, skip the cross-check |
-| 2 | Speckit folder that agrees with the branch/ticket | `speckit` |
-| 3 | **The Jira ticket alone** | `ticket-only` |
-| 4 | The PR description alone (PR mode, no ticket, no folder) | `pr-only`, and say in the report that the requirements source is weak |
-| 5 | Nothing resolves | skip `tr-spec-reviewer`, run the code axis alone, say so in the report header |
+| #   | Source                                                   | Mode to tell the agent                                                        |
+| --- | -------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| 1   | `$2`, a spec path the user passed                        | `speckit` — overrides everything, skip the cross-check                        |
+| 2   | Speckit folder that agrees with the branch/ticket        | `speckit`                                                                     |
+| 3   | **The Jira ticket alone**                                | `ticket-only`                                                                 |
+| 4   | The PR description alone (PR mode, no ticket, no folder) | `pr-only`, and say in the report that the requirements source is weak         |
+| 5   | Nothing resolves                                         | skip `tr-spec-reviewer`, run the code axis alone, say so in the report header |
 
 In `ticket-only` and `pr-only` mode the axis still runs and still blocks the
 verdict — acceptance criteria in a ticket are binding. What changes is the
@@ -116,9 +116,10 @@ this repo will migrate to the App Router eventually and the filter must follow.
    `node -p "require('./node_modules/next/package.json').version"`.
 2. Router paradigm: `ls -d apps/next/app` vs `ls -d apps/next/pages`. An `app/`
    directory means `app`; only `pages/` means `pages`.
-3. Resolve the rule-set path: `~/.claude/skills/vercel-react-best-practices/`.
+3. Check the rule set exists: `~/.claude/skills/vercel-react-best-practices/`.
    If it is missing, skip the perf axis and say so in the report header — do not
-   substitute your own performance opinions.
+   substitute your own performance opinions. The agent loads it itself via the
+   `Skill` tool; you only confirm it is installed.
 
 Pass it to `tr-perf-reviewer` as a literal block:
 
@@ -127,11 +128,10 @@ Stack profile (detected <date>):
   next: <installed version>
   react: <installed version>
   router: pages | app
-  rule set: <resolved path>
 ```
 
 At the time of writing this repo is Next 15.5.x / React 19.2.x / `pages`, which
-suppresses the 10 App Router rules the agent lists. **Re-detect anyway.**
+suppresses the App Router / RSC rules. **Re-detect anyway.**
 
 ## Step 3 — Spawn all three agents in parallel
 

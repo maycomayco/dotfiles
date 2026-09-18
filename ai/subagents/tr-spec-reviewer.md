@@ -3,7 +3,7 @@ name: "tr-spec-reviewer"
 description: "Spec-conformance reviewer for the tr_web Next.js app. Given a diff and the originating Speckit spec / Jira ticket, reports missing requirements, scope creep, wrong implementations, and defects in the spec itself. Does not review code quality — pair it with tr-code-reviewer. The caller must provide the diff and the spec."
 color: "blue"
 model: "opus"
-effort: "medium"
+effort: "low"
 tools: "Read, Grep, Glob"
 ---
 
