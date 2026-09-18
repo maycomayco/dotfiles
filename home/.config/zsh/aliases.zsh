@@ -50,4 +50,4 @@ alias prb="pnpm run build"
 alias pri="pnpm install"
 
 # ─── Claude ───────────────────────────────────────────────────────────────
-alias claudio="claude --allow-dangerously-skip-permissions"
+alias cc="claude --allow-dangerously-skip-permissions"
