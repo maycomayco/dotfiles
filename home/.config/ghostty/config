@@ -1,0 +1,24 @@
+# Fuente
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 15
+
+# Padding
+window-padding-x = 8
+window-padding-balance = true
+
+# Transparencia + blur estilo macOS
+background-opacity = 0.92
+background-blur = true
+
+# Atenuar splits que no están enfocados
+unfocused-split-opacity = 0.85
+
+# Cursor
+cursor-style = block
+cursor-style-blink = true
+
+# Que option envíe Alt/Meta (necesario para atajos como option+P en Claude Code)
+# en vez del caracter especial de macOS (ej. π)
+macos-option-as-alt = true
+
+alpha-blending = linear-corrected
