@@ -76,8 +76,7 @@ disabled = true
 disabled = true
 
 [nodejs]
-# sin $version: pedirla obliga a starship a ejecutar el shim de mise (~265ms en cada prompt)
-format = 'via [⬢](green)'
+disabled = true
 
 [ocaml]
 disabled = true
@@ -89,7 +88,7 @@ disabled = true
 disabled = true
 
 [package]
-disabled = false
+disabled = true
 
 [perl]
 disabled = true
