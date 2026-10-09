@@ -41,3 +41,5 @@ eval "$(zoxide init zsh)"
 
 # ─── Starship Prompt ──────────────────────────────────────────────────────
 eval "$(starship init zsh)"
+
+export NODE_OPTIONS="--max-old-space-size=8192"
