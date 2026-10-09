@@ -10,6 +10,8 @@
 	path = ~/workspace/.gitconfig-dept
 [includeIf "gitdir:~/workspace/tr/**"]
 	path = ~/workspace/tr/.gitconfig-tr
+[includeIf "gitdir:~/workspace/ryantax/**"]
+	path = ~/workspace/ryantax/.gitconfig-ryantax
 [core]
 	pager = delta
 [interactive]
